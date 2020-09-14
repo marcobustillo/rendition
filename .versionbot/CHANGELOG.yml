@@ -1,4 +1,16 @@
 - commits:
+    - subject: Don't show pagination for Table when not needed
+      hash: 241f6c235214caf9210d1e124b411bacf0a61157
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Stevche Radevski <stevche@balena.io>
+        signed-off-by: Stevche Radevski <stevche@balena.io>
+      author: Stevche Radevski
+  version: 18.9.0
+  date: 2020-09-14T06:49:01.201Z
+- commits:
     - subject: 'fix: Fall back to schema default for value in JsonSchemaRenderer'
       hash: 7136036cf121ff9b454dabe089d2b1212db4f4d5
       body: >
