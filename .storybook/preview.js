@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { configure, addDecorator } from '@storybook/react'
+import { addDecorator } from '@storybook/react'
 import { useDarkMode } from 'storybook-dark-mode'
 import { withScreenshot } from 'storycap'
 import { createGlobalStyle } from 'styled-components'
@@ -68,11 +68,3 @@ addDecorator(
     }
   })
 )
-
-const req = require.context('../src', true, /.*story\.js$/)
-
-const load = () => {
-  req.keys().forEach(req)
-}
-
-configure(load, module)
