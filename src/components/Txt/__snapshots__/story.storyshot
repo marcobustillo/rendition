@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Next/Txt Standard 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <div
+      className="sc-fKFyDc dToKui sc-bBXqnf kYwmpI"
+    >
+      Standard txt
+    </div>
+    <div
+      className="sc-fKFyDc kNlpHR sc-bBXqnf kYwmpI"
+    >
+      Centered
+    </div>
+    <div
+      className="sc-fKFyDc cCdaOe sc-bBXqnf kYwmpI"
+    >
+      Right
+    </div>
+    <div
+      className="sc-fKFyDc ipClrT sc-bBXqnf kYwmpI"
+    >
+      Bold
+    </div>
+    <div
+      className="sc-fKFyDc eWuelo sc-bBXqnf kYwmpI"
+    >
+      Italic
+    </div>
+    <div
+      className="sc-fKFyDc dnBhvD sc-bBXqnf kYwmpI"
+    >
+      Monospace
+    </div>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG dOMnah"
+    >
+      Inline 
+    </span>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG fZQrcc"
+    >
+      Inline 
+    </span>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG cvmZBb"
+    >
+      Inline 
+    </span>
+    <div
+      className="sc-fKFyDc kIYkoy sc-bBXqnf kYwmpI"
+    >
+      Space   is   preserved
+    </div>
+  </div>
+</div>
+`;

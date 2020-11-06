@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { addDecorator } from '@storybook/react'
 import { useDarkMode } from 'storybook-dark-mode'
-import { withScreenshot } from 'storycap'
 import { createGlobalStyle } from 'styled-components'
 import theme from '../src/theme'
 import { Provider } from '../src/index'
@@ -50,21 +49,3 @@ function withGlobalStyles (storyFn) {
 }
 
 addDecorator(withGlobalStyles)
-
-// The 'fontLoading' global is defined in '.storybook/preview-head.html' and
-// returns a promise that resolves once fonts have loaded. Waiting until the
-// fonts have loaded means we should get consistent screenshots across all
-// systems, otherwise a screenshot could be rendered using the incorrect font
-// and cause a conflict
-addDecorator(
-  withScreenshot({
-    waitFor: 'fontLoading',
-    // Add a slight delay before taking a screenshot to avoid infrequent glitches.
-    delay: 150,
-    viewport: {
-      width: 1200,
-      // This is the minimum, it expands otherwise as needed
-      height: 300
-    }
-  })
-)

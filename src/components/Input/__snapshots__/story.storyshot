@@ -1,0 +1,318 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Next/Input Emphasized 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <div
+      className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+    >
+      <input
+        autoComplete="off"
+        className="StyledTextInput-sc-1x30a0s-0 DrHkh sc-iNqMTl gZlZKg sc-jeGSBP jzwynL"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Placeholder Text"
+      />
+    </div>
+    <div
+      className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+    >
+      <input
+        autoComplete="off"
+        className="StyledTextInput-sc-1x30a0s-0 DrHkh sc-iNqMTl eryJJi sc-jeGSBP jzwynL"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Placeholder Text"
+      />
+    </div>
+    <div
+      className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+    >
+      <input
+        autoComplete="off"
+        className="StyledTextInput-sc-1x30a0s-0 DrHkh sc-iNqMTl geDNTn sc-jeGSBP jzwynL"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Placeholder Text"
+      />
+    </div>
+    <div
+      className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+    >
+      <input
+        autoComplete="off"
+        className="StyledTextInput-sc-1x30a0s-0 jUIQqT sc-iNqMTl bjZkEX sc-jeGSBP jzwynL"
+        disabled={true}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Placeholder Text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Next/Input Input types 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <label>
+      <div>
+        Text
+      </div>
+      <div
+        className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+      >
+        <input
+          autoComplete="off"
+          className="StyledTextInput-sc-1x30a0s-0 DrHkh sc-iNqMTl gBktVj sc-jeGSBP jzwynL"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Placeholder Text"
+          type="text"
+        />
+      </div>
+    </label>
+    <label>
+      <div>
+        Number
+      </div>
+      <div
+        className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+      >
+        <input
+          autoComplete="off"
+          className="StyledTextInput-sc-1x30a0s-0 DrHkh sc-iNqMTl gBktVj sc-jeGSBP jzwynL"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Placeholder Number"
+          type="number"
+        />
+      </div>
+    </label>
+    <label>
+      <div>
+        Date
+      </div>
+      <div
+        className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+      >
+        <input
+          autoComplete="off"
+          className="StyledTextInput-sc-1x30a0s-0 DrHkh sc-iNqMTl gBktVj sc-jeGSBP jzwynL"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Placeholder Date"
+          type="date"
+        />
+      </div>
+    </label>
+    <label>
+      <div>
+        Month
+      </div>
+      <div
+        className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+      >
+        <input
+          autoComplete="off"
+          className="StyledTextInput-sc-1x30a0s-0 DrHkh sc-iNqMTl gBktVj sc-jeGSBP jzwynL"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Placeholder Month"
+          type="month"
+        />
+      </div>
+    </label>
+    <label>
+      <div>
+        Password
+      </div>
+      <div
+        className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+      >
+        <input
+          autoComplete="off"
+          className="StyledTextInput-sc-1x30a0s-0 DrHkh sc-iNqMTl gBktVj sc-jeGSBP jzwynL"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Placeholder Password"
+          type="password"
+        />
+      </div>
+    </label>
+    <label>
+      <div>
+        Time
+      </div>
+      <div
+        className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+      >
+        <input
+          autoComplete="off"
+          className="StyledTextInput-sc-1x30a0s-0 DrHkh sc-iNqMTl gBktVj sc-jeGSBP jzwynL"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Placeholder Time"
+          type="time"
+        />
+      </div>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Next/Input Monospace 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <div
+      className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+    >
+      <input
+        autoComplete="off"
+        className="StyledTextInput-sc-1x30a0s-0 DrHkh sc-iNqMTl hrXUkK sc-jeGSBP jzwynL"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Placeholder Text"
+      />
+    </div>
+    <div
+      className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+    >
+      <input
+        autoComplete="off"
+        className="StyledTextInput-sc-1x30a0s-0 DrHkh sc-iNqMTl hIFA-dI sc-jeGSBP jzwynL"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Placeholder Text"
+      />
+    </div>
+    <div
+      className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+    >
+      <input
+        autoComplete="off"
+        className="StyledTextInput-sc-1x30a0s-0 DrHkh sc-iNqMTl kNyHcZ sc-jeGSBP jzwynL"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Placeholder Text"
+      />
+    </div>
+    <div
+      className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+    >
+      <input
+        autoComplete="off"
+        className="StyledTextInput-sc-1x30a0s-0 jUIQqT sc-iNqMTl eigemZ sc-jeGSBP jzwynL"
+        disabled={true}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Placeholder Text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Next/Input Standard 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <div
+      className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+    >
+      <input
+        autoComplete="off"
+        className="StyledTextInput-sc-1x30a0s-0 DrHkh sc-iNqMTl gBktVj sc-jeGSBP jzwynL"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Placeholder Text"
+      />
+    </div>
+    <div
+      className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+    >
+      <input
+        autoComplete="off"
+        className="StyledTextInput-sc-1x30a0s-0 DrHkh sc-iNqMTl jAgqnt sc-jeGSBP jzwynL"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Placeholder Text"
+      />
+    </div>
+    <div
+      className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+    >
+      <input
+        autoComplete="off"
+        className="StyledTextInput-sc-1x30a0s-0 DrHkh sc-iNqMTl epuaIA sc-jeGSBP jzwynL"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Placeholder Text"
+      />
+    </div>
+    <div
+      className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+    >
+      <input
+        autoComplete="off"
+        className="StyledTextInput-sc-1x30a0s-0 jUIQqT sc-iNqMTl bYipSQ sc-jeGSBP jzwynL"
+        disabled={true}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Placeholder Text"
+      />
+    </div>
+  </div>
+</div>
+`;

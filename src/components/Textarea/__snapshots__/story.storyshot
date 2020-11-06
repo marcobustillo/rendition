@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Next/Textarea AutoRows 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <textarea
+      className="StyledTextArea-sc-17i3mwp-0 cICwEP sc-eJMQSu cfWEDV sc-nFpLZ jNUxxL"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      placeholder="This input will grow to match the text it contains"
+      rows={1}
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Next/Textarea Disabled 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <textarea
+      className="StyledTextArea-sc-17i3mwp-0 izGVYB sc-eJMQSu crWXjy sc-nFpLZ jNUxxL"
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      placeholder="Placeholder text"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Next/Textarea MaxRows 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <textarea
+      className="StyledTextArea-sc-17i3mwp-0 cICwEP sc-eJMQSu cfWEDV sc-nFpLZ jNUxxL"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      placeholder="This input has a maxiumum size of 8 rows"
+      rows={1}
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Next/Textarea MinRows 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <textarea
+      className="StyledTextArea-sc-17i3mwp-0 cICwEP sc-eJMQSu cfWEDV sc-nFpLZ jNUxxL"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      placeholder="This input has a minimum size of 4 rows"
+      rows={4}
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Next/Textarea Monospace 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <textarea
+      className="StyledTextArea-sc-17i3mwp-0 cICwEP sc-eJMQSu crbfos sc-nFpLZ jNUxxL"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      placeholder="Placeholder text"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Next/Textarea Read only 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <textarea
+      className="StyledTextArea-sc-17i3mwp-0 cICwEP sc-eJMQSu cfWEDV sc-nFpLZ jNUxxL"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      placeholder="Placeholder text"
+      readOnly={true}
+      value="Read only value"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Next/Textarea Standard 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <textarea
+      className="StyledTextArea-sc-17i3mwp-0 cICwEP sc-eJMQSu cfWEDV sc-nFpLZ jNUxxL"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      placeholder="Placeholder text"
+    />
+  </div>
+</div>
+`;

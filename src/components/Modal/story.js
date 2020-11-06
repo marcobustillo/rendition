@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
-import { withScreenshot } from 'storycap'
 import withReadme from 'storybook-readme/with-readme'
 import { Box, Button, Heading, Modal } from '../../'
 // TODO: Don't depend on other stories
@@ -106,7 +105,6 @@ class NestedModalDemo extends React.Component {
 
 storiesOf('Next/Modal', module)
   .addDecorator(withReadme(Readme))
-  .addDecorator(withScreenshot({ viewport: { height: 768 } }))
   .add('Standard', () => {
     return (
       <Modal title='Modal title' cancel={cancelAction} done={doneAction}>

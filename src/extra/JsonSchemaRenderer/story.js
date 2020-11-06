@@ -1,6 +1,5 @@
 import * as React from 'react'
 import { createGlobalStyle } from 'styled-components'
-import { withScreenshot } from 'storycap'
 import { storiesOf } from '@storybook/react'
 import withReadme from 'storybook-readme/with-readme'
 import JsonSchemaRendererPlayground from './JsonSchemaRendererPlayground'
@@ -27,8 +26,6 @@ const GlobalStyle = createGlobalStyle`
 
 storiesOf('Extra/JsonSchemaRenderer', module)
   .addDecorator(withReadme(Readme))
-  // No point in taking a screenshot of the (empty) Playground
-  .addDecorator(withScreenshot({ skip: true }))
   .add('Playground', () => {
     return (
       <React.Fragment>

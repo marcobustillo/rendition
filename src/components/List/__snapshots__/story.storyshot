@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Next/List Ordered List 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <ol
+    className="sc-cvJHqN sc-dkmKpi gUqxEt cTGfqz sc-fybufo fZZFGU"
+  >
+    <li>
+      <div
+        className="sc-fKFyDc dToKui sc-bBXqnf kYwmpI"
+      >
+        You can put 
+        <a
+          className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+          color="primary.main"
+          href={[Function]}
+        >
+          a link
+        </a>
+      </div>
+    </li>
+    <li>
+      <div
+        className="sc-fKFyDc dToKui sc-bBXqnf kYwmpI"
+      >
+        And also some 
+        <code>
+          code
+        </code>
+      </div>
+    </li>
+    <li>
+      <div
+        className="sc-fKFyDc dToKui sc-bBXqnf kYwmpI"
+      >
+        Multiline text
+        <div
+          className="sc-fKFyDc dToKui sc-bBXqnf kYwmpI"
+        >
+          that breaks into multiple lines
+        </div>
+      </div>
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`Storyshots Next/List Unordered List 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <ul
+    className="sc-cvJHqN sc-gIRixj gUqxEt hMAQFo sc-fybufo fZZFGU"
+  >
+    <li>
+      <div
+        className="sc-fKFyDc dToKui sc-bBXqnf kYwmpI"
+      >
+        You can put 
+        <a
+          className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+          color="primary.main"
+          href={[Function]}
+        >
+          a link
+        </a>
+      </div>
+    </li>
+    <li>
+      <div
+        className="sc-fKFyDc dToKui sc-bBXqnf kYwmpI"
+      >
+        And also some 
+        <code>
+          code
+        </code>
+      </div>
+    </li>
+    <li>
+      <div
+        className="sc-fKFyDc dToKui sc-bBXqnf kYwmpI"
+      >
+        Multiline text
+        <div
+          className="sc-fKFyDc dToKui sc-bBXqnf kYwmpI"
+        >
+          that breaks into multiple lines
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+`;

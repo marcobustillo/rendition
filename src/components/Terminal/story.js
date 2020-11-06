@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { storiesOf } from '@storybook/react'
 import withReadme from 'storybook-readme/with-readme'
-import { isScreenshot, withScreenshot } from 'storycap'
 import { Box, Terminal } from '../../'
 import { output1 } from '../../stories/assets/tty-output'
 import { Repl } from '../../stories/assets/repl'
@@ -17,14 +16,6 @@ class Logger extends React.Component {
   }
 
   componentDidMount () {
-    if (isScreenshot()) {
-      for (const line of this.lines) {
-        this.term.writeln(line)
-      }
-
-      return
-    }
-
     this.interval = setInterval(() => {
       if (!this.term) {
         return
@@ -220,7 +211,6 @@ class ScreenshotWrapper extends React.Component {
 
 storiesOf('Core/Terminal', module)
   .addDecorator(withReadme(Readme))
-  .addDecorator(withScreenshot({ delay: 2000 }))
   .add('Standard', () => {
     return (
       <ScreenshotWrapper>

@@ -1,0 +1,1337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Next/Steps Ordered 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr sc-dmlrTW fLUTfi jifnFy sc-cbDGPM bTPwSq"
+  >
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ cILJJc sc-hHftDr bRrPDa"
+    >
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ dzgPqC sc-hHftDr sc-jmhFOf cLDXoV fwlXvy"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-check-circle fa-w-16 "
+              data-icon="check-circle"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </div>
+          <a
+            className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+            color="primary.main"
+            onClick={[Function]}
+          >
+            Do this
+          </a>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ calkOo sc-hHftDr kFVJVF"
+        >
+          <svg
+            height="9"
+            viewBox="0 0 29.4 9"
+            width="29.4"
+            x="0"
+            xmlns="http://www.w3.org/2000/svg"
+            y="0"
+          >
+            <g
+              transform="translate(1.000000, 4.000000)"
+            >
+              <path
+                d="M20-4c0.1,0,0.2,0,0.2,0.1l0,0l7.9,4c0.3,0.1,0.4,0.5,0.2,0.7c-0.1,0.1-0.1,0.2-0.2,0.2l0,0
+			l-8,3.9c-0.3,0.1-0.6,0-0.7-0.2c0-0.1-0.1-0.2-0.1-0.2l0,0l0-3.5l-3.9,0C15.2,1,15,0.8,15,0.5l0-0.1C15,0.2,15.2,0,15.5,0l0,0
+			l3.9,0l0-3.5C19.4-3.7,19.6-4,20-4L20-4z M7.5-0.1l4,0c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5l0,0l-4,0C7.2,0.9,7,0.7,7,0.4
+			C7,0.1,7.2-0.1,7.5-0.1L7.5-0.1z M-0.5-0.2l4,0C3.8-0.1,4,0.1,4,0.4S3.8,0.9,3.5,0.9l0,0l-4,0C-0.8,0.8-1,0.6-1,0.3
+			C-1,0-0.8-0.2-0.5-0.2L-0.5-0.2z"
+                fill="#5b82a7"
+                fillRule="nonzero"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ gCUzdd sc-hHftDr sc-jmhFOf cLDXoV fwlXvy fa-layers"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-circle fa-w-16 "
+              data-icon="circle"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+            <div
+              className="sc-fKFyDc dToKui sc-bBXqnf kYwmpI sc-dUrnRO vTCgF fa-layers-text fa-inverse"
+            >
+              2
+            </div>
+          </div>
+          <div
+            className="sc-fKFyDc ipClrT sc-bBXqnf kYwmpI"
+          >
+            then this
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ calkOo sc-hHftDr kFVJVF"
+        >
+          <svg
+            height="9"
+            viewBox="0 0 29.4 9"
+            width="29.4"
+            x="0"
+            xmlns="http://www.w3.org/2000/svg"
+            y="0"
+          >
+            <g
+              transform="translate(1.000000, 4.000000)"
+            >
+              <path
+                d="M20-4c0.1,0,0.2,0,0.2,0.1l0,0l7.9,4c0.3,0.1,0.4,0.5,0.2,0.7c-0.1,0.1-0.1,0.2-0.2,0.2l0,0
+			l-8,3.9c-0.3,0.1-0.6,0-0.7-0.2c0-0.1-0.1-0.2-0.1-0.2l0,0l0-3.5l-3.9,0C15.2,1,15,0.8,15,0.5l0-0.1C15,0.2,15.2,0,15.5,0l0,0
+			l3.9,0l0-3.5C19.4-3.7,19.6-4,20-4L20-4z M7.5-0.1l4,0c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5l0,0l-4,0C7.2,0.9,7,0.7,7,0.4
+			C7,0.1,7.2-0.1,7.5-0.1L7.5-0.1z M-0.5-0.2l4,0C3.8-0.1,4,0.1,4,0.4S3.8,0.9,3.5,0.9l0,0l-4,0C-0.8,0.8-1,0.6-1,0.3
+			C-1,0-0.8-0.2-0.5-0.2L-0.5-0.2z"
+                fill="#5b82a7"
+                fillRule="nonzero"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ dStBGr sc-hHftDr sc-jmhFOf cLDXoV fwlXvy fa-layers"
+          >
+            <div
+              className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-httYMd kHJtev"
+            />
+            <div
+              className="sc-fKFyDc dToKui sc-bBXqnf kYwmpI sc-dUrnRO vTCgF fa-layers-text"
+            >
+              3
+            </div>
+          </div>
+          <a
+            className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+            color="primary.main"
+            onClick={[Function]}
+          >
+            and then this
+          </a>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ calkOo sc-hHftDr kFVJVF"
+        >
+          <svg
+            height="9"
+            viewBox="0 0 29.4 9"
+            width="29.4"
+            x="0"
+            xmlns="http://www.w3.org/2000/svg"
+            y="0"
+          >
+            <g
+              transform="translate(1.000000, 4.000000)"
+            >
+              <path
+                d="M20-4c0.1,0,0.2,0,0.2,0.1l0,0l7.9,4c0.3,0.1,0.4,0.5,0.2,0.7c-0.1,0.1-0.1,0.2-0.2,0.2l0,0
+			l-8,3.9c-0.3,0.1-0.6,0-0.7-0.2c0-0.1-0.1-0.2-0.1-0.2l0,0l0-3.5l-3.9,0C15.2,1,15,0.8,15,0.5l0-0.1C15,0.2,15.2,0,15.5,0l0,0
+			l3.9,0l0-3.5C19.4-3.7,19.6-4,20-4L20-4z M7.5-0.1l4,0c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5l0,0l-4,0C7.2,0.9,7,0.7,7,0.4
+			C7,0.1,7.2-0.1,7.5-0.1L7.5-0.1z M-0.5-0.2l4,0C3.8-0.1,4,0.1,4,0.4S3.8,0.9,3.5,0.9l0,0l-4,0C-0.8,0.8-1,0.6-1,0.3
+			C-1,0-0.8-0.2-0.5-0.2L-0.5-0.2z"
+                fill="#bbc8d6"
+                fillRule="nonzero"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ dStBGr sc-hHftDr sc-jmhFOf cLDXoV fwlXvy fa-layers"
+          >
+            <div
+              className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-httYMd kHJtev"
+            />
+            <div
+              className="sc-fKFyDc dToKui sc-bBXqnf kYwmpI sc-dUrnRO vTCgF fa-layers-text"
+            >
+              4
+            </div>
+          </div>
+          <div
+            className="sc-fKFyDc dToKui sc-bBXqnf lijGUI"
+          >
+            and finally this!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ jwHBNp sc-hHftDr kFVJVF"
+  >
+    <div
+      className="sc-AzgDb kYRMKa sc-khAkjo ehhgfF"
+    >
+      <label
+        checked={true}
+        className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 hixiBW"
+        onClick={[Function]}
+      >
+        <div
+          checked={true}
+          className="StyledBox-sc-13pk1d4-0 jbIyUK StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+        >
+          <input
+            checked={true}
+            className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 gnmdLR"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            type="checkbox"
+          />
+          <div
+            checked={true}
+            className="StyledBox-sc-13pk1d4-0 cfMdld StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 kRWCTA"
+          >
+            <svg
+              checked={true}
+              className="StyledCheckBox__StyledCheckBoxIcon-sc-1dbk5ju-0 hGAXaj"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6,11.3 L10.3,16 L18,6.2"
+                fill="none"
+              />
+            </svg>
+          </div>
+        </div>
+        <span>
+          Step 2 is complete
+        </span>
+      </label>
+    </div>
+  </div>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr sc-dmlrTW fLUTfi jCybnR sc-cbDGPM bTPwSq"
+  >
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ jDRXQs sc-hHftDr kFVJVF"
+    >
+      <h6
+        className="sc-jcVebW jPGlzQ sc-dOSReg cTNgnc"
+      >
+        With title
+      </h6>
+    </div>
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ cILJJc sc-hHftDr bRrPDa"
+    >
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ dzgPqC sc-hHftDr sc-jmhFOf cLDXoV fwlXvy"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-check-circle fa-w-16 "
+              data-icon="check-circle"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </div>
+          <a
+            className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+            color="primary.main"
+            onClick={[Function]}
+          >
+            Do this
+          </a>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ calkOo sc-hHftDr kFVJVF"
+        >
+          <svg
+            height="9"
+            viewBox="0 0 29.4 9"
+            width="29.4"
+            x="0"
+            xmlns="http://www.w3.org/2000/svg"
+            y="0"
+          >
+            <g
+              transform="translate(1.000000, 4.000000)"
+            >
+              <path
+                d="M20-4c0.1,0,0.2,0,0.2,0.1l0,0l7.9,4c0.3,0.1,0.4,0.5,0.2,0.7c-0.1,0.1-0.1,0.2-0.2,0.2l0,0
+			l-8,3.9c-0.3,0.1-0.6,0-0.7-0.2c0-0.1-0.1-0.2-0.1-0.2l0,0l0-3.5l-3.9,0C15.2,1,15,0.8,15,0.5l0-0.1C15,0.2,15.2,0,15.5,0l0,0
+			l3.9,0l0-3.5C19.4-3.7,19.6-4,20-4L20-4z M7.5-0.1l4,0c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5l0,0l-4,0C7.2,0.9,7,0.7,7,0.4
+			C7,0.1,7.2-0.1,7.5-0.1L7.5-0.1z M-0.5-0.2l4,0C3.8-0.1,4,0.1,4,0.4S3.8,0.9,3.5,0.9l0,0l-4,0C-0.8,0.8-1,0.6-1,0.3
+			C-1,0-0.8-0.2-0.5-0.2L-0.5-0.2z"
+                fill="#5b82a7"
+                fillRule="nonzero"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ gCUzdd sc-hHftDr sc-jmhFOf cLDXoV fwlXvy fa-layers"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-circle fa-w-16 "
+              data-icon="circle"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+            <div
+              className="sc-fKFyDc dToKui sc-bBXqnf kYwmpI sc-dUrnRO vTCgF fa-layers-text fa-inverse"
+            >
+              2
+            </div>
+          </div>
+          <div
+            className="sc-fKFyDc ipClrT sc-bBXqnf kYwmpI"
+          >
+            then this
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ calkOo sc-hHftDr kFVJVF"
+        >
+          <svg
+            height="9"
+            viewBox="0 0 29.4 9"
+            width="29.4"
+            x="0"
+            xmlns="http://www.w3.org/2000/svg"
+            y="0"
+          >
+            <g
+              transform="translate(1.000000, 4.000000)"
+            >
+              <path
+                d="M20-4c0.1,0,0.2,0,0.2,0.1l0,0l7.9,4c0.3,0.1,0.4,0.5,0.2,0.7c-0.1,0.1-0.1,0.2-0.2,0.2l0,0
+			l-8,3.9c-0.3,0.1-0.6,0-0.7-0.2c0-0.1-0.1-0.2-0.1-0.2l0,0l0-3.5l-3.9,0C15.2,1,15,0.8,15,0.5l0-0.1C15,0.2,15.2,0,15.5,0l0,0
+			l3.9,0l0-3.5C19.4-3.7,19.6-4,20-4L20-4z M7.5-0.1l4,0c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5l0,0l-4,0C7.2,0.9,7,0.7,7,0.4
+			C7,0.1,7.2-0.1,7.5-0.1L7.5-0.1z M-0.5-0.2l4,0C3.8-0.1,4,0.1,4,0.4S3.8,0.9,3.5,0.9l0,0l-4,0C-0.8,0.8-1,0.6-1,0.3
+			C-1,0-0.8-0.2-0.5-0.2L-0.5-0.2z"
+                fill="#5b82a7"
+                fillRule="nonzero"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ dStBGr sc-hHftDr sc-jmhFOf cLDXoV fwlXvy fa-layers"
+          >
+            <div
+              className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-httYMd kHJtev"
+            />
+            <div
+              className="sc-fKFyDc dToKui sc-bBXqnf kYwmpI sc-dUrnRO vTCgF fa-layers-text"
+            >
+              3
+            </div>
+          </div>
+          <a
+            className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+            color="primary.main"
+            onClick={[Function]}
+          >
+            and then this
+          </a>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ calkOo sc-hHftDr kFVJVF"
+        >
+          <svg
+            height="9"
+            viewBox="0 0 29.4 9"
+            width="29.4"
+            x="0"
+            xmlns="http://www.w3.org/2000/svg"
+            y="0"
+          >
+            <g
+              transform="translate(1.000000, 4.000000)"
+            >
+              <path
+                d="M20-4c0.1,0,0.2,0,0.2,0.1l0,0l7.9,4c0.3,0.1,0.4,0.5,0.2,0.7c-0.1,0.1-0.1,0.2-0.2,0.2l0,0
+			l-8,3.9c-0.3,0.1-0.6,0-0.7-0.2c0-0.1-0.1-0.2-0.1-0.2l0,0l0-3.5l-3.9,0C15.2,1,15,0.8,15,0.5l0-0.1C15,0.2,15.2,0,15.5,0l0,0
+			l3.9,0l0-3.5C19.4-3.7,19.6-4,20-4L20-4z M7.5-0.1l4,0c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5l0,0l-4,0C7.2,0.9,7,0.7,7,0.4
+			C7,0.1,7.2-0.1,7.5-0.1L7.5-0.1z M-0.5-0.2l4,0C3.8-0.1,4,0.1,4,0.4S3.8,0.9,3.5,0.9l0,0l-4,0C-0.8,0.8-1,0.6-1,0.3
+			C-1,0-0.8-0.2-0.5-0.2L-0.5-0.2z"
+                fill="#bbc8d6"
+                fillRule="nonzero"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ dStBGr sc-hHftDr sc-jmhFOf cLDXoV fwlXvy fa-layers"
+          >
+            <div
+              className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-httYMd kHJtev"
+            />
+            <div
+              className="sc-fKFyDc dToKui sc-bBXqnf kYwmpI sc-dUrnRO vTCgF fa-layers-text"
+            >
+              4
+            </div>
+          </div>
+          <div
+            className="sc-fKFyDc dToKui sc-bBXqnf lijGUI"
+          >
+            and finally this!
+          </div>
+        </div>
+      </div>
+    </div>
+    <button
+      aria-label="Dismiss"
+      className="StyledButton-sc-323bzc-0 fVClA-D sc-bqyKva sc-bkzZxe gjQfnS dvvpJt sc-dIUggk YDvpG sc-kfzAmx bikYVF"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      title="Dismiss"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-times fa-w-11 "
+        data-icon="times"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 352 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ jwHBNp sc-hHftDr kFVJVF"
+  >
+    <div
+      className="sc-AzgDb kYRMKa sc-khAkjo ehhgfF"
+    >
+      <label
+        checked={true}
+        className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 hixiBW"
+        onClick={[Function]}
+      >
+        <div
+          checked={true}
+          className="StyledBox-sc-13pk1d4-0 jbIyUK StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+        >
+          <input
+            checked={true}
+            className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 gnmdLR"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            type="checkbox"
+          />
+          <div
+            checked={true}
+            className="StyledBox-sc-13pk1d4-0 cfMdld StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 kRWCTA"
+          >
+            <svg
+              checked={true}
+              className="StyledCheckBox__StyledCheckBoxIcon-sc-1dbk5ju-0 hGAXaj"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6,11.3 L10.3,16 L18,6.2"
+                fill="none"
+              />
+            </svg>
+          </div>
+        </div>
+        <span>
+          Step 2 is complete
+        </span>
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Next/Steps Standard 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr sc-dmlrTW fLUTfi gKJALV sc-cbDGPM bTPwSq"
+  >
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ cILJJc sc-hHftDr bRrPDa"
+    >
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ dzgPqC sc-hHftDr sc-jmhFOf cLDXoV fwlXvy"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-check-circle fa-w-16 "
+              data-icon="check-circle"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </div>
+          <div
+            className="sc-fKFyDc dToKui sc-bBXqnf lijGUI"
+          >
+            These are
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ calkOo sc-hHftDr kFVJVF"
+        >
+          <svg
+            height="9"
+            viewBox="0 0 29.4 9"
+            width="29.4"
+            x="0"
+            xmlns="http://www.w3.org/2000/svg"
+            y="0"
+          >
+            <g
+              transform="translate(1.000000, 4.000000)"
+            >
+              <path
+                d="M20-4c0.1,0,0.2,0,0.2,0.1l0,0l7.9,4c0.3,0.1,0.4,0.5,0.2,0.7c-0.1,0.1-0.1,0.2-0.2,0.2l0,0
+			l-8,3.9c-0.3,0.1-0.6,0-0.7-0.2c0-0.1-0.1-0.2-0.1-0.2l0,0l0-3.5l-3.9,0C15.2,1,15,0.8,15,0.5l0-0.1C15,0.2,15.2,0,15.5,0l0,0
+			l3.9,0l0-3.5C19.4-3.7,19.6-4,20-4L20-4z M7.5-0.1l4,0c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5l0,0l-4,0C7.2,0.9,7,0.7,7,0.4
+			C7,0.1,7.2-0.1,7.5-0.1L7.5-0.1z M-0.5-0.2l4,0C3.8-0.1,4,0.1,4,0.4S3.8,0.9,3.5,0.9l0,0l-4,0C-0.8,0.8-1,0.6-1,0.3
+			C-1,0-0.8-0.2-0.5-0.2L-0.5-0.2z"
+                fill="#5b82a7"
+                fillRule="nonzero"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ dzgPqC sc-hHftDr sc-jmhFOf cLDXoV fwlXvy"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-check-circle fa-w-16 "
+              data-icon="check-circle"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </div>
+          <div
+            className="sc-fKFyDc dToKui sc-bBXqnf lijGUI"
+          >
+            all completed
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ calkOo sc-hHftDr kFVJVF"
+        >
+          <svg
+            height="9"
+            viewBox="0 0 29.4 9"
+            width="29.4"
+            x="0"
+            xmlns="http://www.w3.org/2000/svg"
+            y="0"
+          >
+            <g
+              transform="translate(1.000000, 4.000000)"
+            >
+              <path
+                d="M20-4c0.1,0,0.2,0,0.2,0.1l0,0l7.9,4c0.3,0.1,0.4,0.5,0.2,0.7c-0.1,0.1-0.1,0.2-0.2,0.2l0,0
+			l-8,3.9c-0.3,0.1-0.6,0-0.7-0.2c0-0.1-0.1-0.2-0.1-0.2l0,0l0-3.5l-3.9,0C15.2,1,15,0.8,15,0.5l0-0.1C15,0.2,15.2,0,15.5,0l0,0
+			l3.9,0l0-3.5C19.4-3.7,19.6-4,20-4L20-4z M7.5-0.1l4,0c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5l0,0l-4,0C7.2,0.9,7,0.7,7,0.4
+			C7,0.1,7.2-0.1,7.5-0.1L7.5-0.1z M-0.5-0.2l4,0C3.8-0.1,4,0.1,4,0.4S3.8,0.9,3.5,0.9l0,0l-4,0C-0.8,0.8-1,0.6-1,0.3
+			C-1,0-0.8-0.2-0.5-0.2L-0.5-0.2z"
+                fill="#5b82a7"
+                fillRule="nonzero"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ dzgPqC sc-hHftDr sc-jmhFOf cLDXoV fwlXvy"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-check-circle fa-w-16 "
+              data-icon="check-circle"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </div>
+          <div
+            className="sc-fKFyDc dToKui sc-bBXqnf lijGUI"
+          >
+            and not clickable
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr sc-dmlrTW fLUTfi gKJALV sc-cbDGPM bTPwSq"
+  >
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ cILJJc sc-hHftDr bRrPDa"
+    >
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ dStBGr sc-hHftDr sc-jmhFOf cLDXoV fwlXvy"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-check-circle fa-w-16 "
+              data-icon="check-circle"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </div>
+          <a
+            className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+            color="primary.main"
+            onClick={[Function]}
+          >
+            This one
+          </a>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ calkOo sc-hHftDr kFVJVF"
+        >
+          <svg
+            height="9"
+            viewBox="0 0 29.4 9"
+            width="29.4"
+            x="0"
+            xmlns="http://www.w3.org/2000/svg"
+            y="0"
+          >
+            <g
+              transform="translate(1.000000, 4.000000)"
+            >
+              <path
+                d="M20-4c0.1,0,0.2,0,0.2,0.1l0,0l7.9,4c0.3,0.1,0.4,0.5,0.2,0.7c-0.1,0.1-0.1,0.2-0.2,0.2l0,0
+			l-8,3.9c-0.3,0.1-0.6,0-0.7-0.2c0-0.1-0.1-0.2-0.1-0.2l0,0l0-3.5l-3.9,0C15.2,1,15,0.8,15,0.5l0-0.1C15,0.2,15.2,0,15.5,0l0,0
+			l3.9,0l0-3.5C19.4-3.7,19.6-4,20-4L20-4z M7.5-0.1l4,0c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5l0,0l-4,0C7.2,0.9,7,0.7,7,0.4
+			C7,0.1,7.2-0.1,7.5-0.1L7.5-0.1z M-0.5-0.2l4,0C3.8-0.1,4,0.1,4,0.4S3.8,0.9,3.5,0.9l0,0l-4,0C-0.8,0.8-1,0.6-1,0.3
+			C-1,0-0.8-0.2-0.5-0.2L-0.5-0.2z"
+                fill="#5b82a7"
+                fillRule="nonzero"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ dzgPqC sc-hHftDr sc-jmhFOf cLDXoV fwlXvy"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-check-circle fa-w-16 "
+              data-icon="check-circle"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </div>
+          <a
+            className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+            color="primary.main"
+            onClick={[Function]}
+          >
+            Doesn't have
+          </a>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ calkOo sc-hHftDr kFVJVF"
+        >
+          <svg
+            height="9"
+            viewBox="0 0 29.4 9"
+            width="29.4"
+            x="0"
+            xmlns="http://www.w3.org/2000/svg"
+            y="0"
+          >
+            <g
+              transform="translate(1.000000, 4.000000)"
+            >
+              <path
+                d="M20-4c0.1,0,0.2,0,0.2,0.1l0,0l7.9,4c0.3,0.1,0.4,0.5,0.2,0.7c-0.1,0.1-0.1,0.2-0.2,0.2l0,0
+			l-8,3.9c-0.3,0.1-0.6,0-0.7-0.2c0-0.1-0.1-0.2-0.1-0.2l0,0l0-3.5l-3.9,0C15.2,1,15,0.8,15,0.5l0-0.1C15,0.2,15.2,0,15.5,0l0,0
+			l3.9,0l0-3.5C19.4-3.7,19.6-4,20-4L20-4z M7.5-0.1l4,0c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5l0,0l-4,0C7.2,0.9,7,0.7,7,0.4
+			C7,0.1,7.2-0.1,7.5-0.1L7.5-0.1z M-0.5-0.2l4,0C3.8-0.1,4,0.1,4,0.4S3.8,0.9,3.5,0.9l0,0l-4,0C-0.8,0.8-1,0.6-1,0.3
+			C-1,0-0.8-0.2-0.5-0.2L-0.5-0.2z"
+                fill="#5b82a7"
+                fillRule="nonzero"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ dStBGr sc-hHftDr sc-jmhFOf cLDXoV fwlXvy"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-check-circle fa-w-16 "
+              data-icon="check-circle"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </div>
+          <a
+            className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+            color="primary.main"
+            onClick={[Function]}
+          >
+            Title or dismiss button
+          </a>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ calkOo sc-hHftDr kFVJVF"
+        >
+          <svg
+            height="9"
+            viewBox="0 0 29.4 9"
+            width="29.4"
+            x="0"
+            xmlns="http://www.w3.org/2000/svg"
+            y="0"
+          >
+            <g
+              transform="translate(1.000000, 4.000000)"
+            >
+              <path
+                d="M20-4c0.1,0,0.2,0,0.2,0.1l0,0l7.9,4c0.3,0.1,0.4,0.5,0.2,0.7c-0.1,0.1-0.1,0.2-0.2,0.2l0,0
+			l-8,3.9c-0.3,0.1-0.6,0-0.7-0.2c0-0.1-0.1-0.2-0.1-0.2l0,0l0-3.5l-3.9,0C15.2,1,15,0.8,15,0.5l0-0.1C15,0.2,15.2,0,15.5,0l0,0
+			l3.9,0l0-3.5C19.4-3.7,19.6-4,20-4L20-4z M7.5-0.1l4,0c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5l0,0l-4,0C7.2,0.9,7,0.7,7,0.4
+			C7,0.1,7.2-0.1,7.5-0.1L7.5-0.1z M-0.5-0.2l4,0C3.8-0.1,4,0.1,4,0.4S3.8,0.9,3.5,0.9l0,0l-4,0C-0.8,0.8-1,0.6-1,0.3
+			C-1,0-0.8-0.2-0.5-0.2L-0.5-0.2z"
+                fill="#5b82a7"
+                fillRule="nonzero"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <a
+            className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+            color="primary.main"
+            onClick={[Function]}
+          >
+            That's it (no icon)
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr sc-dmlrTW fLUTfi jCybnR sc-cbDGPM bTPwSq"
+  >
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ jDRXQs sc-hHftDr kFVJVF"
+    >
+      <div
+        className="sc-fKFyDc dToKui sc-bBXqnf bhypgL"
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-map-signs fa-w-16 "
+          data-icon="map-signs"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M507.31 84.69L464 41.37c-6-6-14.14-9.37-22.63-9.37H288V16c0-8.84-7.16-16-16-16h-32c-8.84 0-16 7.16-16 16v16H56c-13.25 0-24 10.75-24 24v80c0 13.25 10.75 24 24 24h385.37c8.49 0 16.62-3.37 22.63-9.37l43.31-43.31c6.25-6.26 6.25-16.38 0-22.63zM224 496c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16V384h-64v112zm232-272H288v-32h-64v32H70.63c-8.49 0-16.62 3.37-22.63 9.37L4.69 276.69c-6.25 6.25-6.25 16.38 0 22.63L48 342.63c6 6 14.14 9.37 22.63 9.37H456c13.25 0 24-10.75 24-24v-80c0-13.25-10.75-24-24-24z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+      <h6
+        className="sc-jcVebW jPGlzQ sc-dOSReg cTNgnc"
+      >
+        Beginners Guide
+      </h6>
+    </div>
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ cILJJc sc-hHftDr bRrPDa"
+    >
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ dStBGr sc-hHftDr sc-jmhFOf cLDXoV fwlXvy"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-check-circle fa-w-16 "
+              data-icon="check-circle"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </div>
+          <a
+            className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+            color="primary.main"
+            onClick={[Function]}
+          >
+            Do this
+          </a>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ calkOo sc-hHftDr kFVJVF"
+        >
+          <svg
+            height="9"
+            viewBox="0 0 29.4 9"
+            width="29.4"
+            x="0"
+            xmlns="http://www.w3.org/2000/svg"
+            y="0"
+          >
+            <g
+              transform="translate(1.000000, 4.000000)"
+            >
+              <path
+                d="M20-4c0.1,0,0.2,0,0.2,0.1l0,0l7.9,4c0.3,0.1,0.4,0.5,0.2,0.7c-0.1,0.1-0.1,0.2-0.2,0.2l0,0
+			l-8,3.9c-0.3,0.1-0.6,0-0.7-0.2c0-0.1-0.1-0.2-0.1-0.2l0,0l0-3.5l-3.9,0C15.2,1,15,0.8,15,0.5l0-0.1C15,0.2,15.2,0,15.5,0l0,0
+			l3.9,0l0-3.5C19.4-3.7,19.6-4,20-4L20-4z M7.5-0.1l4,0c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5l0,0l-4,0C7.2,0.9,7,0.7,7,0.4
+			C7,0.1,7.2-0.1,7.5-0.1L7.5-0.1z M-0.5-0.2l4,0C3.8-0.1,4,0.1,4,0.4S3.8,0.9,3.5,0.9l0,0l-4,0C-0.8,0.8-1,0.6-1,0.3
+			C-1,0-0.8-0.2-0.5-0.2L-0.5-0.2z"
+                fill="#5b82a7"
+                fillRule="nonzero"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ dzgPqC sc-hHftDr sc-jmhFOf cLDXoV fwlXvy"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-check-circle fa-w-16 "
+              data-icon="check-circle"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </div>
+          <a
+            className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+            color="primary.main"
+            onClick={[Function]}
+          >
+            And then this
+          </a>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ calkOo sc-hHftDr kFVJVF"
+        >
+          <svg
+            height="9"
+            viewBox="0 0 29.4 9"
+            width="29.4"
+            x="0"
+            xmlns="http://www.w3.org/2000/svg"
+            y="0"
+          >
+            <g
+              transform="translate(1.000000, 4.000000)"
+            >
+              <path
+                d="M20-4c0.1,0,0.2,0,0.2,0.1l0,0l7.9,4c0.3,0.1,0.4,0.5,0.2,0.7c-0.1,0.1-0.1,0.2-0.2,0.2l0,0
+			l-8,3.9c-0.3,0.1-0.6,0-0.7-0.2c0-0.1-0.1-0.2-0.1-0.2l0,0l0-3.5l-3.9,0C15.2,1,15,0.8,15,0.5l0-0.1C15,0.2,15.2,0,15.5,0l0,0
+			l3.9,0l0-3.5C19.4-3.7,19.6-4,20-4L20-4z M7.5-0.1l4,0c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5l0,0l-4,0C7.2,0.9,7,0.7,7,0.4
+			C7,0.1,7.2-0.1,7.5-0.1L7.5-0.1z M-0.5-0.2l4,0C3.8-0.1,4,0.1,4,0.4S3.8,0.9,3.5,0.9l0,0l-4,0C-0.8,0.8-1,0.6-1,0.3
+			C-1,0-0.8-0.2-0.5-0.2L-0.5-0.2z"
+                fill="#5b82a7"
+                fillRule="nonzero"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ dStBGr sc-hHftDr sc-jmhFOf cLDXoV fwlXvy"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-check-circle fa-w-16 "
+              data-icon="check-circle"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </div>
+          <a
+            className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+            color="primary.main"
+            onClick={[Function]}
+          >
+            And finally this
+          </a>
+        </div>
+      </div>
+    </div>
+    <button
+      aria-label="Dismiss"
+      className="StyledButton-sc-323bzc-0 fVClA-D sc-bqyKva sc-bkzZxe gjQfnS dvvpJt sc-dIUggk YDvpG sc-kfzAmx bikYVF"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      title="Dismiss"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-times fa-w-11 "
+        data-icon="times"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 352 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr sc-dmlrTW fLUTfi jifnFy sc-cbDGPM bTPwSq"
+  >
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ cILJJc sc-hHftDr bRrPDa"
+    >
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ dStBGr sc-hHftDr sc-jmhFOf cLDXoV fwlXvy"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-check-circle fa-w-16 "
+              data-icon="check-circle"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </div>
+          <a
+            className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+            color="primary.main"
+            onClick={[Function]}
+          >
+            Do this
+          </a>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ calkOo sc-hHftDr kFVJVF"
+        >
+          <svg
+            height="9"
+            viewBox="0 0 29.4 9"
+            width="29.4"
+            x="0"
+            xmlns="http://www.w3.org/2000/svg"
+            y="0"
+          >
+            <g
+              transform="translate(1.000000, 4.000000)"
+            >
+              <path
+                d="M20-4c0.1,0,0.2,0,0.2,0.1l0,0l7.9,4c0.3,0.1,0.4,0.5,0.2,0.7c-0.1,0.1-0.1,0.2-0.2,0.2l0,0
+			l-8,3.9c-0.3,0.1-0.6,0-0.7-0.2c0-0.1-0.1-0.2-0.1-0.2l0,0l0-3.5l-3.9,0C15.2,1,15,0.8,15,0.5l0-0.1C15,0.2,15.2,0,15.5,0l0,0
+			l3.9,0l0-3.5C19.4-3.7,19.6-4,20-4L20-4z M7.5-0.1l4,0c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5l0,0l-4,0C7.2,0.9,7,0.7,7,0.4
+			C7,0.1,7.2-0.1,7.5-0.1L7.5-0.1z M-0.5-0.2l4,0C3.8-0.1,4,0.1,4,0.4S3.8,0.9,3.5,0.9l0,0l-4,0C-0.8,0.8-1,0.6-1,0.3
+			C-1,0-0.8-0.2-0.5-0.2L-0.5-0.2z"
+                fill="#5b82a7"
+                fillRule="nonzero"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ dzgPqC sc-hHftDr sc-jmhFOf cLDXoV fwlXvy"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-check-circle fa-w-16 "
+              data-icon="check-circle"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </div>
+          <a
+            className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+            color="primary.main"
+            onClick={[Function]}
+          >
+            And then this
+          </a>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ calkOo sc-hHftDr kFVJVF"
+        >
+          <svg
+            height="9"
+            viewBox="0 0 29.4 9"
+            width="29.4"
+            x="0"
+            xmlns="http://www.w3.org/2000/svg"
+            y="0"
+          >
+            <g
+              transform="translate(1.000000, 4.000000)"
+            >
+              <path
+                d="M20-4c0.1,0,0.2,0,0.2,0.1l0,0l7.9,4c0.3,0.1,0.4,0.5,0.2,0.7c-0.1,0.1-0.1,0.2-0.2,0.2l0,0
+			l-8,3.9c-0.3,0.1-0.6,0-0.7-0.2c0-0.1-0.1-0.2-0.1-0.2l0,0l0-3.5l-3.9,0C15.2,1,15,0.8,15,0.5l0-0.1C15,0.2,15.2,0,15.5,0l0,0
+			l3.9,0l0-3.5C19.4-3.7,19.6-4,20-4L20-4z M7.5-0.1l4,0c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5l0,0l-4,0C7.2,0.9,7,0.7,7,0.4
+			C7,0.1,7.2-0.1,7.5-0.1L7.5-0.1z M-0.5-0.2l4,0C3.8-0.1,4,0.1,4,0.4S3.8,0.9,3.5,0.9l0,0l-4,0C-0.8,0.8-1,0.6-1,0.3
+			C-1,0-0.8-0.2-0.5-0.2L-0.5-0.2z"
+                fill="#5b82a7"
+                fillRule="nonzero"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkUzuV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI sc-hHftDr fYuNSV"
+        >
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ dStBGr sc-hHftDr sc-jmhFOf cLDXoV fwlXvy"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-check-circle fa-w-16 "
+              data-icon="check-circle"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </div>
+          <a
+            className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+            color="primary.main"
+            onClick={[Function]}
+          >
+            And finally this
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

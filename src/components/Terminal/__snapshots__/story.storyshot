@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Core/Terminal Non interactive 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ bgxczn"
+    style={
+      Object {
+        "height": 500,
+      }
+    }
+  >
+    <div
+      className="sc-gKsewC dWcnb sc-iBPRYJ eRfhOV sc-hHftDr sc-irlOZD cLDXoV cnjcGt"
+    >
+      <div
+        className="sc-gKsewC dWcnb sc-iBPRYJ dWRxlP sc-hHftDr sc-eWvPJL iIBJBt hwsbBj"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Core/Terminal Persistent 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ bgxczn"
+  >
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP"
+    >
+      <select
+        onChange={[Function]}
+        value="terminal 1"
+      >
+        <option>
+          terminal 1
+        </option>
+        <option>
+          terminal 2
+        </option>
+        <option>
+          terminal 3
+        </option>
+      </select>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP"
+        style={
+          Object {
+            "height": 500,
+          }
+        }
+      >
+        <div
+          className="sc-gKsewC dWcnb sc-iBPRYJ eRfhOV sc-hHftDr sc-irlOZD cLDXoV cnjcGt"
+        >
+          <div
+            className="sc-gKsewC dWcnb sc-iBPRYJ dWRxlP sc-hHftDr sc-eWvPJL iIBJBt hwsbBj"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Core/Terminal Standard 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ bgxczn"
+    style={
+      Object {
+        "height": 500,
+      }
+    }
+  >
+    <div
+      className="sc-gKsewC dWcnb sc-iBPRYJ eRfhOV sc-hHftDr sc-irlOZD cLDXoV cnjcGt"
+    >
+      <div
+        className="sc-gKsewC dWcnb sc-iBPRYJ dWRxlP sc-hHftDr sc-eWvPJL iIBJBt hwsbBj"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,443 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Core/Tooltips Click 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <button
+      className="StyledButton-sc-323bzc-0 fGJlAh sc-bqyKva sc-kstrdz gjQfnS FUwNf sc-dIUggk mOrwR"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      type="button"
+    >
+      Tooltip on top
+    </button>
+    <button
+      className="StyledButton-sc-323bzc-0 djzULC sc-bqyKva sc-kstrdz gjQfnS EqQzD sc-dIUggk mOrwR"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      type="button"
+    >
+      Tooltip on right
+    </button>
+    <button
+      className="StyledButton-sc-323bzc-0 dEaEuS sc-bqyKva sc-kstrdz gjQfnS kmWMQj sc-dIUggk mOrwR"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      type="button"
+    >
+      Tooltip on bottom
+    </button>
+    <button
+      className="StyledButton-sc-323bzc-0 TDEte sc-bqyKva sc-kstrdz gjQfnS qUjXT sc-dIUggk mOrwR"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      type="button"
+    >
+      Tooltip on left
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Core/Tooltips Standard 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <button
+      className="StyledButton-sc-323bzc-0 fGJlAh sc-bqyKva sc-kstrdz gjQfnS FUwNf sc-dIUggk mOrwR"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      type="button"
+    >
+      Tooltip on top
+    </button>
+    <button
+      className="StyledButton-sc-323bzc-0 djzULC sc-bqyKva sc-kstrdz gjQfnS EqQzD sc-dIUggk mOrwR"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      type="button"
+    >
+      Tooltip on right
+    </button>
+    <button
+      className="StyledButton-sc-323bzc-0 dEaEuS sc-bqyKva sc-kstrdz gjQfnS kmWMQj sc-dIUggk mOrwR"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      type="button"
+    >
+      Tooltip on bottom
+    </button>
+    <button
+      className="StyledButton-sc-323bzc-0 TDEte sc-bqyKva sc-kstrdz gjQfnS qUjXT sc-dIUggk mOrwR"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      type="button"
+    >
+      Tooltip on left
+    </button>
+    <button
+      className="StyledButton-sc-323bzc-0 soChx sc-bqyKva sc-hBEYos gjQfnS kmijuE sc-dIUggk mOrwR"
+      disabled={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      type="button"
+    >
+      Tooltip on disabled button
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Core/Tooltips Styled tooltips 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <button
+      className="StyledButton-sc-323bzc-0 fGJlAh sc-bqyKva sc-kstrdz gjQfnS FUwNf sc-dIUggk mOrwR"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      type="button"
+    >
+      Styled tooltip container
+    </button>
+    <button
+      className="StyledButton-sc-323bzc-0 fGJlAh sc-bqyKva sc-kstrdz gjQfnS FUwNf sc-dIUggk mOrwR"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      type="button"
+    >
+      Styled tooltip arrow
+    </button>
+    <button
+      className="StyledButton-sc-323bzc-0 fGJlAh sc-bqyKva sc-kstrdz gjQfnS FUwNf sc-dIUggk mOrwR"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      type="button"
+    >
+      Styled tooltip inner
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Core/Tooltips Supported Elements 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <h3
+      className="sc-jcVebW fraIRR sc-eggNIi jTuFyV"
+    >
+      Alert
+    </h3>
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ fiWzOU sc-hHftDr sc-dmlrTW cLDXoV pGuYz sc-lmoMRL cGXAYQ"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="sc-fKFyDc dToKui sc-bBXqnf hsApDH"
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-exclamation-triangle fa-w-18 "
+          data-icon="exclamation-triangle"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 576 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+      <div
+        className="sc-gKsewC dWcnb sc-iBPRYJ gaVVgz"
+      >
+        <span
+          className="sc-fKFyDc ipClrT sc-iwyYcG hQqijh"
+        >
+          Warning!
+        </span>
+        <span
+          className="sc-fKFyDc dToKui sc-iwyYcG bUoHum"
+        >
+          Lorem ipsum dolor sit amet.
+        </span>
+      </div>
+    </div>
+    <h3
+      className="sc-jcVebW fraIRR sc-eggNIi hybLdH"
+    >
+      Badge
+    </h3>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG cxxFta sc-bYEvPH gpyJyS sc-kLgntA iGKgqu"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      Lorem
+    </span>
+    <h3
+      className="sc-jcVebW fraIRR sc-eggNIi hybLdH"
+    >
+      Box
+    </h3>
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      Lorem ipsum dolor sit amet.
+    </div>
+    <h3
+      className="sc-jcVebW fraIRR sc-eggNIi hybLdH"
+    >
+      Button
+    </h3>
+    <button
+      className="StyledButton-sc-323bzc-0 cfpfuP sc-bqyKva sc-hBEYos gjQfnS kmijuE sc-dIUggk exGbcB"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      type="button"
+    >
+      Lorem ipsum
+    </button>
+    <button
+      className="StyledButton-sc-323bzc-0 cfpfuP sc-bqyKva sc-hBEYos gjQfnS kmijuE sc-dIUggk exGbcB"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      type="button"
+    >
+      Lorem ipsum
+    </button>
+    <button
+      className="StyledButton-sc-323bzc-0 soChx sc-bqyKva sc-hBEYos gjQfnS kmijuE sc-dIUggk exGbcB"
+      disabled={true}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      type="button"
+    >
+      Lorem ipsum
+    </button>
+    <button
+      className="StyledButton-sc-323bzc-0 soChx sc-bqyKva sc-hBEYos gjQfnS kmijuE sc-dIUggk exGbcB"
+      disabled={true}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      type="button"
+    >
+      <div
+        className="sc-fKFyDc dToKui sc-bBXqnf kYwmpI"
+      >
+        Lorem ipsum
+      </div>
+    </button>
+    <h3
+      className="sc-jcVebW fraIRR sc-eggNIi hybLdH"
+    >
+      DropDownButton
+    </h3>
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-bTvRPi iIpDHo sc-dtwoBo HcSeH"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <span>
+        <button
+          className="StyledButton-sc-323bzc-0 fGJlAh sc-bqyKva sc-kstrdz gjQfnS FUwNf sc-dIUggk YDvpG sc-hlTvYk iaMgEP"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+          type="button"
+        >
+          <div>
+            DropDown
+          </div>
+        </button>
+        <button
+          className="StyledButton-sc-323bzc-0 gZnGrv sc-bqyKva sc-kstrdz gjQfnS FUwNf sc-dIUggk YDvpG sc-jONnTn bnExuh"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-chevron-down fa-w-14 "
+            color="#444444"
+            data-icon="chevron-down"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </button>
+      </span>
+    </div>
+    <div
+      className="sc-jHVexB bnjpdB sc-aemoO fVKkYE"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <h3
+        className="sc-jcVebW fraIRR sc-eggNIi hybLdH"
+      >
+        Fixed
+      </h3>
+    </div>
+    <h3
+      className="sc-jcVebW fraIRR sc-eggNIi hybLdH"
+    >
+      Flex
+    </h3>
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ kVavkb sc-hHftDr cLDXoV"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "height": 30,
+        }
+      }
+    />
+    <h3
+      className="sc-jcVebW fraIRR sc-eggNIi hybLdH"
+    >
+      Heading
+    </h3>
+    <h2
+      className="sc-jcVebW fraIRR sc-iBaPrD iFoFUX"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      Hello world!
+    </h2>
+    <h3
+      className="sc-jcVebW fraIRR sc-eggNIi hybLdH"
+    >
+      Link
+    </h3>
+    <a
+      className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+      color="primary.main"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      Lorem ipsum dolor sit amet
+    </a>
+    <h3
+      className="sc-jcVebW fraIRR sc-eggNIi hybLdH"
+    >
+      Txt
+    </h3>
+    <div
+      className="sc-fKFyDc dToKui sc-bBXqnf kYwmpI"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      Lorem ipsum dolor sit amet
+    </div>
+  </div>
+</div>
+`;

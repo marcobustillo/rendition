@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Next/Divider Standard 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <hr
+      className="sc-gWHgXt eFENim sc-citwmv cEMDUz"
+      color="#ccc"
+    />
+    <hr
+      className="sc-gWHgXt PLIsv sc-citwmv ZJozZ"
+    />
+    <hr
+      className="sc-gWHgXt jUzTVJ sc-citwmv ZJozZ"
+      type="dashed"
+    />
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ kCgyvI sc-hHftDr bxfdfp sc-citwmv ZJozZ"
+    >
+      <hr
+        className="sc-gWHgXt sc-cBNfnY jUzTVJ jLKwhq"
+        type="dashed"
+      />
+      <span
+        className="sc-fKFyDc dToKui sc-iwyYcG fZreIp"
+      >
+        some textual context
+      </span>
+      <hr
+        className="sc-gWHgXt sc-cBNfnY jUzTVJ jLKwhq"
+        type="dashed"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -2,7 +2,6 @@ import * as React from 'react'
 import { storiesOf } from '@storybook/react'
 import withReadme from 'storybook-readme/with-readme'
 import { action } from '@storybook/addon-actions'
-import { withScreenshot } from 'storycap'
 import {
   NotificationsContainer,
   notifications,
@@ -124,8 +123,6 @@ const NotificationPositionStory = () => {
 
 storiesOf('Next/Notifications', module)
   .addDecorator(withReadme(Readme))
-  // Wait until the startup notifications are added.
-  .addDecorator(withScreenshot({ skip: true }))
   .add('Standard', () => {
     // You cannot run hooks inside this function, so we define a separate React component.
     return <NotificationsStory />

@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
-import { withScreenshot } from 'storycap'
 import withReadme from 'storybook-readme/with-readme'
 import { Box, Flex, Txt, Form } from '../../'
 import { Markdown } from '../../extra/Markdown'
@@ -303,8 +302,6 @@ storiesOf('Next/Form', module)
 
     return <FormDemo schema={schema} />
   })
-  // There is no good way to wait for the captcha. If this proves to be flaky, find a better solution
-  .addDecorator(withScreenshot({ delay: 5000 }))
   .add('Extra widgets', () => {
     const extraSchema = {
       type: 'object',

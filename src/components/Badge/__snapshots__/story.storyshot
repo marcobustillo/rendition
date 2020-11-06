@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Next/Badge Standard 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG cxxFta sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 0
+    </span>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG eIDflt sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 1
+    </span>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG hZGzpr sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 2
+    </span>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG jpsWTW sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 3
+    </span>
+  </div>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG bYrAgY sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 4
+    </span>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG hHOrbl sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 5
+    </span>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG eXDijQ sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 6
+    </span>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG lhfjGE sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 7
+    </span>
+  </div>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG jyHoYN sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 8
+    </span>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG PXNLx sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 9
+    </span>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG enSDwy sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 10
+    </span>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG hfMJoW sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 11
+    </span>
+  </div>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG gChyDJ sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 12
+    </span>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG ifFFrJ sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 13
+    </span>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG lgYGjc sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 14
+    </span>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG cPFoNv sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 15
+    </span>
+  </div>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG etdub sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 16
+    </span>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG hULnZo sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 17
+    </span>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG jNbtmj sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 18
+    </span>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG ceLFHd sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 19
+    </span>
+  </div>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG dMZnwl sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 20
+    </span>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG frFecw sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 21
+    </span>
+    <span
+      className="sc-fKFyDc dToKui sc-iwyYcG hiIgoP sc-bYEvPH gpyJyS sc-kLgntA hVpTUo"
+    >
+      Badge 22
+    </span>
+  </div>
+</div>
+`;

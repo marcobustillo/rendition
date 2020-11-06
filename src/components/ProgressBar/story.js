@@ -1,6 +1,5 @@
 import * as React from 'react'
 import { storiesOf } from '@storybook/react'
-import { isScreenshot } from 'storycap'
 import withReadme from 'storybook-readme/with-readme'
 import { Box, ProgressBar } from '../../'
 import Readme from './README.md'
@@ -15,9 +14,6 @@ export class Progressor extends React.Component {
   }
 
   componentDidMount () {
-    if (isScreenshot()) {
-      return
-    }
     this.progressInterval = setInterval(() => {
       let value = this.state.value + 1
       if (value > 100) {

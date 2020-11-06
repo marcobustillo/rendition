@@ -1,0 +1,434 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Next/Card Standard 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ bVJjMs sc-hHftDr ktiSDn"
+  >
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr sc-dmlrTW cLDXoV gKJALV sc-bBrOnJ gdZqkT sc-cOajty hiBkIl"
+    >
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ kCgyvI"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque euismod risus at gravida. Pellentesque a nunc semper, ultrices lacus nec, mattis mauris
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr sc-dmlrTW cLDXoV gKJALV sc-bBrOnJ fizSPM sc-cOajty hiBkIl"
+    >
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ kCgyvI"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque euismod risus at gravida. Pellentesque a nunc semper, ultrices lacus nec, mattis mauris
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Next/Card With Header 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ bVJjMs sc-hHftDr ktiSDn"
+  >
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr sc-dmlrTW cLDXoV gKJALV sc-bBrOnJ gdZqkT sc-cOajty hiBkIl"
+    >
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ kCgyvI"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr kUtBaJ"
+        >
+          <h5
+            className="sc-jcVebW jPGlzQ sc-jNMdTA geKpYl"
+          >
+            Card with Button
+          </h5>
+          <button
+            className="StyledButton-sc-323bzc-0 fGJlAh sc-bqyKva sc-kstrdz gjQfnS FUwNf sc-dIUggk YDvpG"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            type="button"
+          >
+            Update
+          </button>
+        </div>
+        <hr
+          className="sc-gWHgXt PLIsv sc-citwmv bAwyHf"
+        />
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque euismod risus at gravida. Pellentesque a nunc semper, ultrices lacus nec, mattis mauris
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr sc-dmlrTW cLDXoV gKJALV sc-bBrOnJ fizSPM sc-cOajty hiBkIl"
+    >
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ kCgyvI"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr kUtBaJ"
+        >
+          <h5
+            className="sc-jcVebW jPGlzQ sc-jNMdTA geKpYl"
+          >
+            Card with Button
+          </h5>
+          <button
+            className="StyledButton-sc-323bzc-0 fGJlAh sc-bqyKva sc-kstrdz gjQfnS FUwNf sc-dIUggk YDvpG"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            type="button"
+          >
+            Update
+          </button>
+        </div>
+        <hr
+          className="sc-gWHgXt PLIsv sc-citwmv bAwyHf"
+        />
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque euismod risus at gravida. Pellentesque a nunc semper, ultrices lacus nec, mattis mauris
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr sc-dmlrTW cLDXoV gKJALV sc-bBrOnJ gdZqkT sc-cOajty hiBkIl"
+    >
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ kCgyvI"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr kUtBaJ"
+        >
+          <h5
+            className="sc-jcVebW jPGlzQ sc-jNMdTA geKpYl"
+          >
+            Card with Link
+          </h5>
+          <a
+            className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+            color="primary.main"
+            href="https://balena.io"
+          >
+            Link
+          </a>
+        </div>
+        <hr
+          className="sc-gWHgXt PLIsv sc-citwmv bAwyHf"
+        />
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque euismod risus at gravida. Pellentesque a nunc semper, ultrices lacus nec, mattis mauris
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr sc-dmlrTW cLDXoV gKJALV sc-bBrOnJ fizSPM sc-cOajty hiBkIl"
+    >
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ kCgyvI"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr kUtBaJ"
+        >
+          <h5
+            className="sc-jcVebW jPGlzQ sc-jNMdTA geKpYl"
+          >
+            Card with Link
+          </h5>
+          <a
+            className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+            color="primary.main"
+            href="https://balena.io"
+          >
+            Link
+          </a>
+        </div>
+        <hr
+          className="sc-gWHgXt PLIsv sc-citwmv bAwyHf"
+        />
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque euismod risus at gravida. Pellentesque a nunc semper, ultrices lacus nec, mattis mauris
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Next/Card With rows 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ bVJjMs sc-hHftDr ktiSDn"
+  >
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr sc-dmlrTW cLDXoV gKJALV sc-bBrOnJ gdZqkT sc-cOajty hiBkIl"
+    >
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ kCgyvI"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr kUtBaJ"
+        >
+          <h5
+            className="sc-jcVebW jPGlzQ sc-jNMdTA geKpYl"
+          >
+            Title
+          </h5>
+          <a
+            className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+            color="primary.main"
+            href="https://balena.io"
+          >
+            Link
+          </a>
+        </div>
+        <hr
+          className="sc-gWHgXt PLIsv sc-citwmv bAwyHf"
+        />
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI"
+        >
+          <div>
+            Lorem Ipsum dolor si amet
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI"
+        >
+          <hr
+            className="sc-gWHgXt PLIsv sc-citwmv liYinz"
+          />
+          <a
+            className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+            color="primary.main"
+            href="www.balena.io"
+          >
+            Link
+          </a>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI"
+        >
+          <hr
+            className="sc-gWHgXt PLIsv sc-citwmv liYinz"
+          />
+          <span
+            className="sc-fKFyDc dToKui sc-iwyYcG bsaCCL sc-kUbhmq iIBqut text-with-copy"
+            title="This value has been copied to your clipboard!"
+          >
+            <span
+              className="text-with-copy__content"
+            >
+              Row with Copy component
+            </span>
+            <span
+              className="text-with-copy__copy_wrapper"
+              onClick={[Function]}
+            >
+              <div
+                className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP text-with-copy__copy"
+                onClick={[Function]}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-copy fa-w-14 "
+                  data-icon="copy"
+                  data-prefix="far"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 448 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M433.941 65.941l-51.882-51.882A48 48 0 0 0 348.118 0H176c-26.51 0-48 21.49-48 48v48H48c-26.51 0-48 21.49-48 48v320c0 26.51 21.49 48 48 48h224c26.51 0 48-21.49 48-48v-48h80c26.51 0 48-21.49 48-48V99.882a48 48 0 0 0-14.059-33.941zM266 464H54a6 6 0 0 1-6-6V150a6 6 0 0 1 6-6h74v224c0 26.51 21.49 48 48 48h96v42a6 6 0 0 1-6 6zm128-96H182a6 6 0 0 1-6-6V54a6 6 0 0 1 6-6h106v88c0 13.255 10.745 24 24 24h88v202a6 6 0 0 1-6 6zm6-256h-64V48h9.632c1.591 0 3.117.632 4.243 1.757l48.368 48.368a6 6 0 0 1 1.757 4.243V112z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </div>
+            </span>
+          </span>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI"
+        >
+          <hr
+            className="sc-gWHgXt PLIsv sc-citwmv liYinz"
+          />
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkLErl"
+          >
+            <div>
+              Row with
+            </div>
+            <div>
+              Flex
+            </div>
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI"
+        >
+          <hr
+            className="sc-gWHgXt PLIsv sc-citwmv liYinz"
+          />
+          <div>
+            Lorem Ipsum dolor si amet
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr sc-dmlrTW cLDXoV gKJALV sc-bBrOnJ fizSPM sc-cOajty hiBkIl"
+    >
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ kCgyvI"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr kUtBaJ"
+        >
+          <h5
+            className="sc-jcVebW jPGlzQ sc-jNMdTA geKpYl"
+          >
+            Title
+          </h5>
+          <a
+            className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+            color="primary.main"
+            href="https://balena.io"
+          >
+            Link
+          </a>
+        </div>
+        <hr
+          className="sc-gWHgXt PLIsv sc-citwmv bAwyHf"
+        />
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI"
+        >
+          <div>
+            Lorem Ipsum dolor si amet
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI"
+        >
+          <hr
+            className="sc-gWHgXt PLIsv sc-citwmv liYinz"
+          />
+          <a
+            className="sc-eGCarw kBARfK sc-ctaXAZ bvFpzE"
+            color="primary.main"
+            href="www.balena.io"
+          >
+            Link
+          </a>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI"
+        >
+          <hr
+            className="sc-gWHgXt PLIsv sc-citwmv liYinz"
+          />
+          <span
+            className="sc-fKFyDc dToKui sc-iwyYcG bsaCCL sc-kUbhmq iIBqut text-with-copy"
+            title="This value has been copied to your clipboard!"
+          >
+            <span
+              className="text-with-copy__content"
+            >
+              Row with Copy component
+            </span>
+            <span
+              className="text-with-copy__copy_wrapper"
+              onClick={[Function]}
+            >
+              <div
+                className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP text-with-copy__copy"
+                onClick={[Function]}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-copy fa-w-14 "
+                  data-icon="copy"
+                  data-prefix="far"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 448 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M433.941 65.941l-51.882-51.882A48 48 0 0 0 348.118 0H176c-26.51 0-48 21.49-48 48v48H48c-26.51 0-48 21.49-48 48v320c0 26.51 21.49 48 48 48h224c26.51 0 48-21.49 48-48v-48h80c26.51 0 48-21.49 48-48V99.882a48 48 0 0 0-14.059-33.941zM266 464H54a6 6 0 0 1-6-6V150a6 6 0 0 1 6-6h74v224c0 26.51 21.49 48 48 48h96v42a6 6 0 0 1-6 6zm128-96H182a6 6 0 0 1-6-6V54a6 6 0 0 1 6-6h106v88c0 13.255 10.745 24 24 24h88v202a6 6 0 0 1-6 6zm6-256h-64V48h9.632c1.591 0 3.117.632 4.243 1.757l48.368 48.368a6 6 0 0 1 1.757 4.243V112z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </div>
+            </span>
+          </span>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI"
+        >
+          <hr
+            className="sc-gWHgXt PLIsv sc-citwmv liYinz"
+          />
+          <div
+            className="sc-gKsewC cgpPfo sc-iBPRYJ dWRxlP sc-hHftDr jkLErl"
+          >
+            <div>
+              Row with
+            </div>
+            <div>
+              Flex
+            </div>
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ iTdmGI"
+        >
+          <hr
+            className="sc-gWHgXt PLIsv sc-citwmv liYinz"
+          />
+          <div>
+            Lorem Ipsum dolor si amet
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

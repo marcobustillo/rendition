@@ -1,0 +1,1097 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Next/Checkbox Standard 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <label>
+      <h6
+        className="sc-jcVebW jPGlzQ sc-dOSReg hkvgvB"
+      >
+        Default
+      </h6>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ fGRNFR sc-hHftDr cLDXoV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ cWpyeL"
+        >
+          <div
+            className="sc-AzgDb iHoFZh sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={false}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 hixiBW"
+              onClick={[Function]}
+            >
+              <div
+                checked={false}
+                className="StyledBox-sc-13pk1d4-0 kDZMxH StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+              >
+                <input
+                  checked={false}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 gnmdLR"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <div
+                  checked={false}
+                  className="StyledBox-sc-13pk1d4-0 gFpUiV StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 kRWCTA"
+                />
+              </div>
+            </label>
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ fGcFQf"
+        >
+          <div
+            className="sc-AzgDb iHoFZh sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={false}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 hixiBW"
+              onClick={[Function]}
+            >
+              <div
+                checked={false}
+                className="StyledBox-sc-13pk1d4-0 kDZMxH StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+              >
+                <input
+                  checked={false}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 gnmdLR"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <div
+                  checked={false}
+                  className="StyledBox-sc-13pk1d4-0 gFpUiV StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 kRWCTA"
+                />
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </label>
+    <label>
+      <h6
+        className="sc-jcVebW jPGlzQ sc-dOSReg hkvgvB"
+      >
+        Checked
+      </h6>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ fGRNFR sc-hHftDr cLDXoV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ cWpyeL"
+        >
+          <div
+            className="sc-AzgDb kYRMKa sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={true}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 hixiBW"
+              onClick={[Function]}
+            >
+              <div
+                checked={true}
+                className="StyledBox-sc-13pk1d4-0 kDZMxH StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+              >
+                <input
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 gnmdLR"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <div
+                  checked={true}
+                  className="StyledBox-sc-13pk1d4-0 cfMdld StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 kRWCTA"
+                >
+                  <svg
+                    checked={true}
+                    className="StyledCheckBox__StyledCheckBoxIcon-sc-1dbk5ju-0 hGAXaj"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M6,11.3 L10.3,16 L18,6.2"
+                      fill="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ fGcFQf"
+        >
+          <div
+            className="sc-AzgDb kYRMKa sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={true}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 hixiBW"
+              onClick={[Function]}
+            >
+              <div
+                checked={true}
+                className="StyledBox-sc-13pk1d4-0 kDZMxH StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+              >
+                <input
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 gnmdLR"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <div
+                  checked={true}
+                  className="StyledBox-sc-13pk1d4-0 cfMdld StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 kRWCTA"
+                >
+                  <svg
+                    checked={true}
+                    className="StyledCheckBox__StyledCheckBoxIcon-sc-1dbk5ju-0 hGAXaj"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M6,11.3 L10.3,16 L18,6.2"
+                      fill="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </label>
+    <label>
+      <h6
+        className="sc-jcVebW jPGlzQ sc-dOSReg hkvgvB"
+      >
+        With Label
+      </h6>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ fGRNFR sc-hHftDr cLDXoV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ cWpyeL"
+        >
+          <div
+            className="sc-AzgDb kYRMKa sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={true}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 hixiBW"
+              onClick={[Function]}
+            >
+              <div
+                checked={true}
+                className="StyledBox-sc-13pk1d4-0 jbIyUK StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+              >
+                <input
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 gnmdLR"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <div
+                  checked={true}
+                  className="StyledBox-sc-13pk1d4-0 cfMdld StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 kRWCTA"
+                >
+                  <svg
+                    checked={true}
+                    className="StyledCheckBox__StyledCheckBoxIcon-sc-1dbk5ju-0 hGAXaj"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M6,11.3 L10.3,16 L18,6.2"
+                      fill="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <span>
+                Checkbox Label
+              </span>
+            </label>
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ fGcFQf"
+        >
+          <div
+            className="sc-AzgDb kYRMKa sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={true}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 hixiBW"
+              onClick={[Function]}
+            >
+              <div
+                checked={true}
+                className="StyledBox-sc-13pk1d4-0 jbIyUK StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+              >
+                <input
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 gnmdLR"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <div
+                  checked={true}
+                  className="StyledBox-sc-13pk1d4-0 cfMdld StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 kRWCTA"
+                >
+                  <svg
+                    checked={true}
+                    className="StyledCheckBox__StyledCheckBoxIcon-sc-1dbk5ju-0 hGAXaj"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M6,11.3 L10.3,16 L18,6.2"
+                      fill="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <span>
+                Checkbox Label
+              </span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ fGRNFR sc-hHftDr cLDXoV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ cWpyeL"
+        >
+          <div
+            className="sc-AzgDb kYRMKa sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={true}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 hixiBW"
+              onClick={[Function]}
+            >
+              <span>
+                Checkbox Label
+              </span>
+              <div
+                checked={true}
+                className="StyledBox-sc-13pk1d4-0 jUHgwK StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+              >
+                <input
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 gnmdLR"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <div
+                  checked={true}
+                  className="StyledBox-sc-13pk1d4-0 cfMdld StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 kRWCTA"
+                >
+                  <svg
+                    checked={true}
+                    className="StyledCheckBox__StyledCheckBoxIcon-sc-1dbk5ju-0 hGAXaj"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M6,11.3 L10.3,16 L18,6.2"
+                      fill="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ fGcFQf"
+        >
+          <div
+            className="sc-AzgDb kYRMKa sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={true}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 hixiBW"
+              onClick={[Function]}
+            >
+              <span>
+                Checkbox Label
+              </span>
+              <div
+                checked={true}
+                className="StyledBox-sc-13pk1d4-0 jUHgwK StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+              >
+                <input
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 gnmdLR"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <div
+                  checked={true}
+                  className="StyledBox-sc-13pk1d4-0 cfMdld StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 kRWCTA"
+                >
+                  <svg
+                    checked={true}
+                    className="StyledCheckBox__StyledCheckBoxIcon-sc-1dbk5ju-0 hGAXaj"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M6,11.3 L10.3,16 L18,6.2"
+                      fill="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </label>
+    <label>
+      <h6
+        className="sc-jcVebW jPGlzQ sc-dOSReg hkvgvB"
+      >
+        Disabled
+      </h6>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ fGRNFR sc-hHftDr cLDXoV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ cWpyeL"
+        >
+          <div
+            className="sc-AzgDb iHoFZh sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={false}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 jYUEID"
+              disabled={true}
+              onClick={[Function]}
+            >
+              <div
+                checked={false}
+                className="StyledBox-sc-13pk1d4-0 kDZMxH StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+                disabled={true}
+              >
+                <input
+                  checked={false}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 dpeunl"
+                  disabled={true}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <div
+                  checked={false}
+                  className="StyledBox-sc-13pk1d4-0 gFpUiV StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 kRWCTA"
+                  disabled={true}
+                />
+              </div>
+            </label>
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ fGcFQf"
+        >
+          <div
+            className="sc-AzgDb iHoFZh sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={false}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 jYUEID"
+              disabled={true}
+              onClick={[Function]}
+            >
+              <div
+                checked={false}
+                className="StyledBox-sc-13pk1d4-0 kDZMxH StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+                disabled={true}
+              >
+                <input
+                  checked={false}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 dpeunl"
+                  disabled={true}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <div
+                  checked={false}
+                  className="StyledBox-sc-13pk1d4-0 gFpUiV StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 kRWCTA"
+                  disabled={true}
+                />
+              </div>
+            </label>
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ cWpyeL"
+        >
+          <div
+            className="sc-AzgDb kYRMKa sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={true}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 jYUEID"
+              disabled={true}
+              onClick={[Function]}
+            >
+              <div
+                checked={true}
+                className="StyledBox-sc-13pk1d4-0 kDZMxH StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+                disabled={true}
+              >
+                <input
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 dpeunl"
+                  disabled={true}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <div
+                  checked={true}
+                  className="StyledBox-sc-13pk1d4-0 cfMdld StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 kRWCTA"
+                  disabled={true}
+                >
+                  <svg
+                    checked={true}
+                    className="StyledCheckBox__StyledCheckBoxIcon-sc-1dbk5ju-0 hGAXaj"
+                    disabled={true}
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M6,11.3 L10.3,16 L18,6.2"
+                      fill="none"
+                    />
+                  </svg>
+                </div>
+                <input
+                  type="hidden"
+                  value="true"
+                />
+              </div>
+            </label>
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ fGcFQf"
+        >
+          <div
+            className="sc-AzgDb kYRMKa sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={true}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 jYUEID"
+              disabled={true}
+              onClick={[Function]}
+            >
+              <div
+                checked={true}
+                className="StyledBox-sc-13pk1d4-0 kDZMxH StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+                disabled={true}
+              >
+                <input
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 dpeunl"
+                  disabled={true}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <div
+                  checked={true}
+                  className="StyledBox-sc-13pk1d4-0 cfMdld StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 kRWCTA"
+                  disabled={true}
+                >
+                  <svg
+                    checked={true}
+                    className="StyledCheckBox__StyledCheckBoxIcon-sc-1dbk5ju-0 hGAXaj"
+                    disabled={true}
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M6,11.3 L10.3,16 L18,6.2"
+                      fill="none"
+                    />
+                  </svg>
+                </div>
+                <input
+                  type="hidden"
+                  value="true"
+                />
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Next/Checkbox Toggle 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 jdcmMW sc-fXoxut gqvpza"
+>
+  <div
+    className="sc-gKsewC cgpPfo sc-iBPRYJ frgkGL"
+  >
+    <label>
+      <h6
+        className="sc-jcVebW jPGlzQ sc-dOSReg hkvgvB"
+      >
+        Default
+      </h6>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ fGRNFR sc-hHftDr cLDXoV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ cWpyeL"
+        >
+          <div
+            className="sc-AzgDb iHoFZh sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={false}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 hixiBW"
+              onClick={[Function]}
+            >
+              <div
+                checked={false}
+                className="StyledBox-sc-13pk1d4-0 kDZMxH StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+              >
+                <input
+                  checked={false}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 gnmdLR"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <span
+                  checked={false}
+                  className="StyledCheckBox__StyledCheckBoxToggle-sc-1dbk5ju-4 iSVBLj"
+                >
+                  <span
+                    checked={false}
+                    className="StyledCheckBox__StyledCheckBoxKnob-sc-1dbk5ju-5 hAptcP"
+                  />
+                </span>
+              </div>
+            </label>
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ fGcFQf"
+        >
+          <div
+            className="sc-AzgDb iHoFZh sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={false}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 hixiBW"
+              onClick={[Function]}
+            >
+              <div
+                checked={false}
+                className="StyledBox-sc-13pk1d4-0 kDZMxH StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+              >
+                <input
+                  checked={false}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 gnmdLR"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <span
+                  checked={false}
+                  className="StyledCheckBox__StyledCheckBoxToggle-sc-1dbk5ju-4 iSVBLj"
+                >
+                  <span
+                    checked={false}
+                    className="StyledCheckBox__StyledCheckBoxKnob-sc-1dbk5ju-5 hAptcP"
+                  />
+                </span>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </label>
+    <label>
+      <h6
+        className="sc-jcVebW jPGlzQ sc-dOSReg hkvgvB"
+      >
+        Checked
+      </h6>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ fGRNFR sc-hHftDr cLDXoV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ cWpyeL"
+        >
+          <div
+            className="sc-AzgDb kYRMKa sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={true}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 hixiBW"
+              onClick={[Function]}
+            >
+              <div
+                checked={true}
+                className="StyledBox-sc-13pk1d4-0 kDZMxH StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+              >
+                <input
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 gnmdLR"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <span
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxToggle-sc-1dbk5ju-4 iSVBLj"
+                >
+                  <span
+                    checked={true}
+                    className="StyledCheckBox__StyledCheckBoxKnob-sc-1dbk5ju-5 hAptcP"
+                  />
+                </span>
+              </div>
+            </label>
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ fGcFQf"
+        >
+          <div
+            className="sc-AzgDb kYRMKa sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={true}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 hixiBW"
+              onClick={[Function]}
+            >
+              <div
+                checked={true}
+                className="StyledBox-sc-13pk1d4-0 kDZMxH StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+              >
+                <input
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 gnmdLR"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <span
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxToggle-sc-1dbk5ju-4 iSVBLj"
+                >
+                  <span
+                    checked={true}
+                    className="StyledCheckBox__StyledCheckBoxKnob-sc-1dbk5ju-5 hAptcP"
+                  />
+                </span>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </label>
+    <label>
+      <h6
+        className="sc-jcVebW jPGlzQ sc-dOSReg hkvgvB"
+      >
+        With Label
+      </h6>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ fGRNFR sc-hHftDr cLDXoV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ cWpyeL"
+        >
+          <div
+            className="sc-AzgDb kYRMKa sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={true}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 hixiBW"
+              onClick={[Function]}
+            >
+              <div
+                checked={true}
+                className="StyledBox-sc-13pk1d4-0 jbIyUK StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+              >
+                <input
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 gnmdLR"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <span
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxToggle-sc-1dbk5ju-4 iSVBLj"
+                >
+                  <span
+                    checked={true}
+                    className="StyledCheckBox__StyledCheckBoxKnob-sc-1dbk5ju-5 hAptcP"
+                  />
+                </span>
+              </div>
+              <span>
+                Toggle Label
+              </span>
+            </label>
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ fGcFQf"
+        >
+          <div
+            className="sc-AzgDb kYRMKa sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={true}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 hixiBW"
+              onClick={[Function]}
+            >
+              <div
+                checked={true}
+                className="StyledBox-sc-13pk1d4-0 jbIyUK StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+              >
+                <input
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 gnmdLR"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <span
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxToggle-sc-1dbk5ju-4 iSVBLj"
+                >
+                  <span
+                    checked={true}
+                    className="StyledCheckBox__StyledCheckBoxKnob-sc-1dbk5ju-5 hAptcP"
+                  />
+                </span>
+              </div>
+              <span>
+                Toggle Label
+              </span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ fGRNFR sc-hHftDr cLDXoV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ cWpyeL"
+        >
+          <div
+            className="sc-AzgDb kYRMKa sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={true}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 hixiBW"
+              onClick={[Function]}
+            >
+              <span>
+                Toggle Label
+              </span>
+              <div
+                checked={true}
+                className="StyledBox-sc-13pk1d4-0 jUHgwK StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+              >
+                <input
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 gnmdLR"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <span
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxToggle-sc-1dbk5ju-4 iSVBLj"
+                >
+                  <span
+                    checked={true}
+                    className="StyledCheckBox__StyledCheckBoxKnob-sc-1dbk5ju-5 hAptcP"
+                  />
+                </span>
+              </div>
+            </label>
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ fGcFQf"
+        >
+          <div
+            className="sc-AzgDb kYRMKa sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={true}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 hixiBW"
+              onClick={[Function]}
+            >
+              <span>
+                Toggle Label
+              </span>
+              <div
+                checked={true}
+                className="StyledBox-sc-13pk1d4-0 jUHgwK StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+              >
+                <input
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 gnmdLR"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <span
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxToggle-sc-1dbk5ju-4 iSVBLj"
+                >
+                  <span
+                    checked={true}
+                    className="StyledCheckBox__StyledCheckBoxKnob-sc-1dbk5ju-5 hAptcP"
+                  />
+                </span>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </label>
+    <label>
+      <h6
+        className="sc-jcVebW jPGlzQ sc-dOSReg hkvgvB"
+      >
+        Disabled
+      </h6>
+      <div
+        className="sc-gKsewC cgpPfo sc-iBPRYJ fGRNFR sc-hHftDr cLDXoV"
+      >
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ cWpyeL"
+        >
+          <div
+            className="sc-AzgDb iHoFZh sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={false}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 jYUEID"
+              disabled={true}
+              onClick={[Function]}
+            >
+              <div
+                checked={false}
+                className="StyledBox-sc-13pk1d4-0 kDZMxH StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+                disabled={true}
+              >
+                <input
+                  checked={false}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 dpeunl"
+                  disabled={true}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <span
+                  checked={false}
+                  className="StyledCheckBox__StyledCheckBoxToggle-sc-1dbk5ju-4 iSVBLj"
+                  disabled={true}
+                >
+                  <span
+                    checked={false}
+                    className="StyledCheckBox__StyledCheckBoxKnob-sc-1dbk5ju-5 hAptcP"
+                    disabled={true}
+                  />
+                </span>
+              </div>
+            </label>
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ fGcFQf"
+        >
+          <div
+            className="sc-AzgDb iHoFZh sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={false}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 jYUEID"
+              disabled={true}
+              onClick={[Function]}
+            >
+              <div
+                checked={false}
+                className="StyledBox-sc-13pk1d4-0 kDZMxH StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+                disabled={true}
+              >
+                <input
+                  checked={false}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 dpeunl"
+                  disabled={true}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <span
+                  checked={false}
+                  className="StyledCheckBox__StyledCheckBoxToggle-sc-1dbk5ju-4 iSVBLj"
+                  disabled={true}
+                >
+                  <span
+                    checked={false}
+                    className="StyledCheckBox__StyledCheckBoxKnob-sc-1dbk5ju-5 hAptcP"
+                    disabled={true}
+                  />
+                </span>
+              </div>
+            </label>
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ cWpyeL"
+        >
+          <div
+            className="sc-AzgDb kYRMKa sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={true}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 jYUEID"
+              disabled={true}
+              onClick={[Function]}
+            >
+              <div
+                checked={true}
+                className="StyledBox-sc-13pk1d4-0 kDZMxH StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+                disabled={true}
+              >
+                <input
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 dpeunl"
+                  disabled={true}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <span
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxToggle-sc-1dbk5ju-4 iSVBLj"
+                  disabled={true}
+                >
+                  <span
+                    checked={true}
+                    className="StyledCheckBox__StyledCheckBoxKnob-sc-1dbk5ju-5 hAptcP"
+                    disabled={true}
+                  />
+                </span>
+                <input
+                  type="hidden"
+                  value="true"
+                />
+              </div>
+            </label>
+          </div>
+        </div>
+        <div
+          className="sc-gKsewC cgpPfo sc-iBPRYJ fGcFQf"
+        >
+          <div
+            className="sc-AzgDb kYRMKa sc-khAkjo ehhgfF"
+          >
+            <label
+              checked={true}
+              className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 jYUEID"
+              disabled={true}
+              onClick={[Function]}
+            >
+              <div
+                checked={true}
+                className="StyledBox-sc-13pk1d4-0 kDZMxH StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+                disabled={true}
+              >
+                <input
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 dpeunl"
+                  disabled={true}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="checkbox"
+                />
+                <span
+                  checked={true}
+                  className="StyledCheckBox__StyledCheckBoxToggle-sc-1dbk5ju-4 iSVBLj"
+                  disabled={true}
+                >
+                  <span
+                    checked={true}
+                    className="StyledCheckBox__StyledCheckBoxKnob-sc-1dbk5ju-5 hAptcP"
+                    disabled={true}
+                  />
+                </span>
+                <input
+                  type="hidden"
+                  value="true"
+                />
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </label>
+  </div>
+</div>
+`;
