@@ -4,9 +4,9 @@ import * as React from 'react';
 import styled from 'styled-components';
 import asRendition from '../../asRendition';
 import { RenditionSystemProps } from '../../common-types';
-import Button from '../Button';
+import { Button } from '../Button';
 import { Flex } from '../Flex';
-import Txt from '../Txt';
+import { Txt } from '../Txt';
 
 const Container = styled(Flex)`
 	background-color: ${(props) => props.theme.colors.info.light};
@@ -19,7 +19,7 @@ const DeleteButton = styled(Button)`
 	color: ${(props) => props.theme.colors.tertiary.semilight};
 `;
 
-const TagBase = ({
+const BaseTag = ({
 	name,
 	operator,
 	value,
@@ -108,5 +108,5 @@ export interface InternalTagProps {
 export type TagProps = InternalTagProps & RenditionSystemProps;
 
 export const Tag = asRendition<React.FunctionComponent<TagProps>>(
-	TagBase as any,
+	BaseTag as any,
 );

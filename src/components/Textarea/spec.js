@@ -2,20 +2,9 @@
 import { mount } from 'enzyme'
 import noop from 'lodash/noop'
 import React from 'react'
-import renderer from 'react-test-renderer'
 import { Provider, Textarea } from '../../../dist'
 
 describe('Textarea component', () => {
-  it('should match the stored snapshot', () => {
-    const component = renderer.create(
-      <Provider>
-        <Textarea />
-      </Provider>
-    )
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
-  })
-
   it('should accept and display a value', () => {
     const value = 'lorem ipsum dolor sit amet'
 

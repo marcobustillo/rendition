@@ -5,7 +5,7 @@ import {
 import * as React from 'react';
 import styled from 'styled-components';
 import asRendition from '../../asRendition';
-import { DefaultProps, Omit, RenditionSystemProps } from '../../common-types';
+import { Omit, RenditionSystemProps } from '../../common-types';
 import { emphasized, monospace } from '../../utils';
 
 const getBorderColor = (
@@ -37,14 +37,16 @@ const StyledGrommetInput = styled(GrommetTextInput)<{
 	}
 `;
 
-const Input = React.forwardRef(({ ...otherProps }: InternalInputProps, ref) => {
-	// @ts-ignore The grommet typings don't include `ref`, but they do pass it to the input component.
-	return <StyledGrommetInput {...otherProps} ref={ref} />;
-});
+const BaseInput = React.forwardRef(
+	({ ...otherProps }: InternalInputProps, ref) => {
+		// @ts-ignore The grommet typings don't include `ref`, but they do pass it to the input component.
+		return <StyledGrommetInput {...otherProps} ref={ref} />;
+	},
+);
 
 export interface InternalInputProps
 	extends GrommetTextInputProps,
-		Omit<DefaultProps, 'onSelect'> {
+		Omit<React.HTMLAttributes<HTMLInputElement>, 'onSelect' | 'placeholder'> {
 	onChange?: React.ChangeEventHandler<HTMLInputElement>;
 	type?: string;
 	autoFocus?: boolean;
@@ -64,4 +66,6 @@ export interface InternalInputProps
 
 export type InputProps = InternalInputProps &
 	RenditionSystemProps & { ref?: React.Ref<HTMLInputElement | null> };
-export default asRendition<React.FunctionComponent<InputProps>>(Input);
+export const Input = asRendition<React.FunctionComponent<InputProps>>(
+	BaseInput,
+);

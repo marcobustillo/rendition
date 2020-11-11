@@ -2,7 +2,7 @@ import * as React from 'react';
 import ReactNotification, { store } from 'react-notifications-component';
 import styled from 'styled-components';
 import { animations } from '../../animations';
-import Alert from '../Alert';
+import { Alert } from '../Alert';
 import styles from './defaultStyle';
 
 type CONTAINER =

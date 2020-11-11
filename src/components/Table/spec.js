@@ -7,7 +7,6 @@ import map from 'lodash/map'
 import noop from 'lodash/noop'
 import reverse from 'lodash/reverse'
 import React from 'react'
-import renderer from 'react-test-renderer'
 import sinon from 'sinon'
 import PokeDex from '../../stories/assets/pokedex'
 
@@ -49,16 +48,6 @@ const getRowClass = (pokemon) => {
 }
 
 describe('Table component', () => {
-  it('should match the stored snapshot', () => {
-    const component = renderer.create(
-      <Provider>
-        <Table />
-      </Provider>
-    )
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
-  })
-
   describe('columns property', () => {
     it('should render a table header cell for each column', () => {
       const component = mount(

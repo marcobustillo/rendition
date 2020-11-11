@@ -3,15 +3,15 @@ import styled from 'styled-components';
 import asRendition from '../../asRendition';
 import { Coloring, RenditionSystemProps, Theme } from '../../common-types';
 import { generateColorFromString, getColor, isLight } from '../../utils';
-import Txt, { TxtProps } from '../Txt';
+import { Txt, TxtProps } from '../Txt';
 
-const BaseHighlightedName = styled(Txt.span)`
+const Base = styled(Txt.span)`
 	display: inline-block;
 	border-radius: 2px;
 	line-height: 1;
 `;
 
-const HighlightedName = ({
+const BaseHighlightedName = ({
 	children,
 	className,
 	theme,
@@ -29,7 +29,7 @@ const HighlightedName = ({
 		generateColorFromString(children);
 
 	return (
-		<BaseHighlightedName
+		<Base
 			{...props}
 			className={className}
 			p={2}
@@ -38,7 +38,7 @@ const HighlightedName = ({
 			bg={bgColor}
 		>
 			{children}
-		</BaseHighlightedName>
+		</Base>
 	);
 };
 
@@ -57,8 +57,6 @@ export interface ThemedHighlightedNameProps
 export type HighlightedNameProps = InternalHighlightedNameProps &
 	RenditionSystemProps;
 
-export default asRendition<React.FunctionComponent<HighlightedNameProps>>(
-	HighlightedName,
-	[],
-	['bg', 'color'],
-);
+export const HighlightedName = asRendition<
+	React.FunctionComponent<HighlightedNameProps>
+>(BaseHighlightedName, [], ['bg', 'color']);

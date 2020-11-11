@@ -1,9 +1,9 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import asRendition from '../../asRendition';
-import { Coloring, RenditionSystemProps, Theme } from '../../common-types';
+import { RenditionSystemProps, Theme } from '../../common-types';
 import { getLegibleTextColor } from '../../utils';
-import Txt from '../Txt';
+import { Txt } from '../Txt';
 
 // All of the shades are checked so background to text contrast ratio is at least 4:1.
 const shades = [
@@ -32,13 +32,13 @@ const shades = [
 	'#F7D8BA',
 ];
 
-const BaseBadge = styled(Txt.span)`
+const StyledBadge = styled(Txt.span)`
 	display: inline-block;
 	border-radius: 1em;
 	line-height: 1;
 `;
 
-const Badge = ({
+const BaseBadge = ({
 	children,
 	className,
 	shade,
@@ -53,7 +53,7 @@ const Badge = ({
 	const shadeHex = shades[(shade || 0) % shades.length];
 
 	return (
-		<BaseBadge
+		<StyledBadge
 			className={className}
 			py={1}
 			px="12px"
@@ -63,20 +63,22 @@ const Badge = ({
 			color={getLegibleTextColor(shadeHex)}
 		>
 			{children}
-		</BaseBadge>
+		</StyledBadge>
 	);
 };
-
-export interface InternalBadgeProps extends Coloring {
-	children: string;
-	className?: string;
-	shade?: number;
-}
 
 export interface ThemedBadgeProps extends InternalBadgeProps {
 	theme: Theme;
 }
 
+export interface InternalBadgeProps {
+	children: string;
+	className?: string;
+	shade?: number;
+}
+
 export type BadgeProps = InternalBadgeProps & RenditionSystemProps;
 
-export default asRendition<React.FunctionComponent<BadgeProps>>(Badge);
+export const Badge = asRendition<React.FunctionComponent<BadgeProps>>(
+	BaseBadge,
+);

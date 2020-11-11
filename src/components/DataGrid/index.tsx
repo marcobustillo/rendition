@@ -2,17 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { px } from '../../utils';
 
-export interface DataGridProps<T> {
-	items: T[];
-	renderItem: (item: T) => React.ReactNode;
-	getItemKey: (item: T) => string | number;
-	itemMinWidth: number | string;
-	itemMaxWidth?: number | string;
-}
-
-type MinMaxProps = Pick<DataGridProps<any>, 'itemMinWidth' | 'itemMaxWidth'>;
-
-const BaseGrid = styled.div<MinMaxProps>`
+const Base = styled.div<MinMaxProps>`
 	display: grid;
 	justify-content: left;
 	grid-gap: ${(props) => px(props.theme.space[4])};
@@ -25,7 +15,7 @@ const BaseItem = styled.div<MinMaxProps>`
 	max-width: ${(props) => props.itemMaxWidth ?? '100%'};
 `;
 
-export const DataGrid = <T extends any>({
+const BaseDataGrid = <T extends any>({
 	itemMinWidth,
 	itemMaxWidth,
 	items,
@@ -33,7 +23,7 @@ export const DataGrid = <T extends any>({
 	getItemKey,
 }: DataGridProps<T>) => {
 	return (
-		<BaseGrid itemMinWidth={itemMinWidth} itemMaxWidth={itemMaxWidth}>
+		<Base itemMinWidth={itemMinWidth} itemMaxWidth={itemMaxWidth}>
 			{items.map((item) => (
 				<BaseItem
 					key={getItemKey(item)}
@@ -43,6 +33,18 @@ export const DataGrid = <T extends any>({
 					{renderItem(item)}
 				</BaseItem>
 			))}
-		</BaseGrid>
+		</Base>
 	);
 };
+
+export interface DataGridProps<T> {
+	items: T[];
+	renderItem: (item: T) => React.ReactNode;
+	getItemKey: (item: T) => string | number;
+	itemMinWidth: number | string;
+	itemMaxWidth?: number | string;
+}
+
+type MinMaxProps = Pick<DataGridProps<any>, 'itemMinWidth' | 'itemMaxWidth'>;
+
+export const DataGrid = BaseDataGrid;

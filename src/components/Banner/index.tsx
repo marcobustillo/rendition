@@ -30,7 +30,7 @@ export interface BannerProps extends FlexProps {
 	backgroundImage?: string;
 }
 
-export default asRendition<
+export const Banner = asRendition<
 	React.ForwardRefExoticComponent<
 		BannerProps & React.RefAttributes<HTMLDivElement>
 	>

@@ -1,40 +1,11 @@
 /* globals expect, describe, beforeAll, afterAll, it */
 import { mount } from 'enzyme'
 import React from 'react'
-import ReactDOM from 'react-dom'
-import renderer from 'react-test-renderer'
 import sinon from 'sinon'
 import { Modal, Provider } from '../../../dist'
 
 const ESCAPE_KEY = 27
 const ENTER_KEY = 13
-
-describe('Modal', () => {
-  let originalPortal
-  beforeAll(() => {
-    // react-test-renderer does not play nicely with ReactDOM.createPortal(), which
-    // is used by Grommet's Layer component in the Modal component. To get it to
-    // work without throwing an error, the ReactDOM.createPortal() method is stubbed
-    // here.
-    // see: https://github.com/facebook/react/issues/11565
-    originalPortal = ReactDOM.createPortal
-    ReactDOM.createPortal = (node) => node
-  })
-
-  afterAll(() => {
-    ReactDOM.createPortal = originalPortal
-  })
-
-  it('renders correctly', () => {
-    const component = renderer.create(
-      <Provider>
-        <Modal>Modal</Modal>
-      </Provider>
-    )
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
-  })
-})
 
 describe('Keyboard closing modals', () => {
   it('should call the callback of the top-most nested modal on Escape key press', () => {

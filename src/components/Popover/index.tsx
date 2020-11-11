@@ -54,7 +54,7 @@ export interface PopoverProps
 	onDismiss: () => any;
 }
 
-const Popover = ({
+const BasePopover = ({
 	placement,
 	target,
 	onDismiss,
@@ -82,8 +82,8 @@ const Popover = ({
 	);
 };
 
-Popover.defaultProps = {
+BasePopover.defaultProps = {
 	placement: 'top',
 };
 
-export default Popover;
+export const Popover = BasePopover;

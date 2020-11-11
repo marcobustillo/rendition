@@ -4,7 +4,7 @@ import {
 } from 'grommet';
 import * as React from 'react';
 import styled from 'styled-components';
-import { DefaultProps, Omit, RenditionSystemProps } from '../../common-types';
+import { Omit, RenditionSystemProps } from '../../common-types';
 
 import asRendition from '../../asRendition';
 
@@ -46,7 +46,7 @@ const RadioButtonWrapper = styled.div<{ checked: boolean }>`
 	${getHoverStyle}
 `;
 
-const RadioButton = ({
+const BaseRadioButton = ({
 	className,
 	...otherProps
 }: InternalRadioButtonProps) => {
@@ -63,12 +63,12 @@ const RadioButton = ({
 // Make name optional, and override onChange to not be of `any` type.
 interface InternalRadioButtonProps
 	extends Omit<GrommetRadioButtonProps, 'name'>,
-		DefaultProps {
+		React.HTMLAttributes<HTMLElement> {
 	name?: string;
 	onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
 export type RadioButtonProps = InternalRadioButtonProps & RenditionSystemProps;
-export default asRendition<React.FunctionComponent<RadioButtonProps>>(
-	RadioButton,
-);
+export const RadioButton = asRendition<
+	React.FunctionComponent<RadioButtonProps>
+>(BaseRadioButton);

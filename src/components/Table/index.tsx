@@ -14,13 +14,13 @@ import sortBy from 'lodash/sortBy';
 import * as React from 'react';
 import styled from 'styled-components';
 
-import Button from '../Button';
+import { Button } from '../Button';
 
 // TODO: Remove explicit import and depend on provider instead.
 import theme from '../../theme';
 import { px } from '../../utils';
-import Checkbox, { CheckboxProps } from '../Checkbox';
-import Pager from '../Pager';
+import { Checkbox, CheckboxProps } from '../Checkbox';
+import { Pager } from '../Pager';
 import { CheckboxWrapper, TableColumn, TableRow } from './TableRow';
 
 const highlightStyle = `
@@ -38,7 +38,7 @@ interface BaseTableProps {
 	hasGetRowRef: boolean;
 }
 
-const BaseTable = styled.div<BaseTableProps>`
+const Base = styled.div<BaseTableProps>`
 	display: table;
 	width: 100%;
 	border-spacing: 0;
@@ -139,7 +139,7 @@ interface TableState<T> {
 	page: number;
 }
 
-class Table<T> extends React.Component<TableProps<T>, TableState<T>> {
+class BaseTable<T> extends React.Component<TableProps<T>, TableState<T>> {
 	constructor(props: TableProps<T>) {
 		super(props);
 
@@ -464,7 +464,7 @@ class Table<T> extends React.Component<TableProps<T>, TableState<T>> {
 					)}
 
 				<BaseTableWrapper>
-					<BaseTable
+					<Base
 						{...props}
 						hasRowClick={!!onRowClick}
 						hasGetRowRef={!!getRowHref}
@@ -551,7 +551,7 @@ class Table<T> extends React.Component<TableProps<T>, TableState<T>> {
 								);
 							})}
 						</div>
-					</BaseTable>
+					</Base>
 				</BaseTableWrapper>
 
 				{shouldShowPaper &&
@@ -609,4 +609,4 @@ export interface TableProps<T> {
 
 export { TableColumn, TableRow };
 
-export default Table;
+export const Table = BaseTable;

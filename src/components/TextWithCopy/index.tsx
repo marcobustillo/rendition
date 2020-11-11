@@ -4,10 +4,10 @@ import copyToClipboard from 'copy-to-clipboard';
 import * as React from 'react';
 import styled from 'styled-components';
 import asRendition from '../../asRendition';
-import { DefaultProps, RenditionSystemProps } from '../../common-types';
+import { RenditionSystemProps } from '../../common-types';
 import { px } from '../../utils';
 import { Box } from '../Box';
-import Txt, { TxtProps } from '../Txt';
+import { Txt, TxtProps } from '../Txt';
 
 const Wrapper = styled(Txt.span)<InternalTextWithCopyProps>`
 	display: inline-block;
@@ -48,7 +48,7 @@ const Wrapper = styled(Txt.span)<InternalTextWithCopyProps>`
 	}
 `;
 
-const Base = ({
+const BaseTextWithCopy = ({
 	copy,
 	code,
 	text,
@@ -86,7 +86,9 @@ const Base = ({
 	);
 };
 
-export interface InternalTextWithCopyProps extends DefaultProps, TxtProps {
+export interface InternalTextWithCopyProps
+	extends Omit<React.HTMLAttributes<HTMLElement>, 'color'>,
+		TxtProps {
 	copy: string;
 	showCopyButton?: 'hover' | 'always';
 	code?: boolean;
@@ -96,4 +98,6 @@ export interface InternalTextWithCopyProps extends DefaultProps, TxtProps {
 export type TextWithCopyProps = InternalTextWithCopyProps &
 	RenditionSystemProps;
 
-export default asRendition<React.FunctionComponent<TextWithCopyProps>>(Base);
+export const TextWithCopy = asRendition<
+	React.FunctionComponent<TextWithCopyProps>
+>(BaseTextWithCopy);

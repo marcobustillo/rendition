@@ -1,13 +1,13 @@
 import { Layer } from 'grommet';
 import * as React from 'react';
 import styled, { createGlobalStyle, withTheme } from 'styled-components';
-import { DefaultProps, ResponsiveStyle, Theme } from '../../common-types';
+import { ResponsiveStyle, Theme } from '../../common-types';
 import { px } from '../../utils';
 import { Box } from '../Box';
-import Button, { ButtonProps } from '../Button';
+import { Button, ButtonProps } from '../Button';
 import { Flex } from '../Flex';
-import Heading from '../Heading';
-import Txt from '../Txt';
+import { Heading } from '../Heading';
+import { Txt } from '../Txt';
 
 const bodyNoOverflowClass = `rendition-modal-open`;
 
@@ -36,7 +36,7 @@ const ModalButton = (props: ButtonProps) => {
 	);
 };
 
-class Modal extends React.Component<ThemedModalProps, any> {
+class BaseModal extends React.Component<ThemedModalProps, any> {
 	public static mountedCount = 0;
 
 	public ownIndex = 0;
@@ -46,18 +46,18 @@ class Modal extends React.Component<ThemedModalProps, any> {
 	}
 
 	public componentDidMount() {
-		if (!Modal.mountedCount) {
+		if (!BaseModal.mountedCount) {
 			document.body.classList.add(bodyNoOverflowClass);
 		}
 
 		window.document.addEventListener('keydown', this.handleKeyDown);
-		Modal.mountedCount++;
-		this.ownIndex = Modal.mountedCount;
+		BaseModal.mountedCount++;
+		this.ownIndex = BaseModal.mountedCount;
 	}
 
 	public componentWillUnmount() {
-		Modal.mountedCount--;
-		if (!Modal.mountedCount) {
+		BaseModal.mountedCount--;
+		if (!BaseModal.mountedCount) {
 			document.body.classList.remove(bodyNoOverflowClass);
 		}
 
@@ -66,7 +66,7 @@ class Modal extends React.Component<ThemedModalProps, any> {
 
 	public handleKeyDown = (e: KeyboardEvent) => {
 		// Only trigger on top-most modal if there are multiple nested modals.
-		if (Modal.mountedCount !== this.ownIndex) {
+		if (BaseModal.mountedCount !== this.ownIndex) {
 			return;
 		}
 
@@ -89,7 +89,7 @@ class Modal extends React.Component<ThemedModalProps, any> {
 		e.stopPropagation();
 
 	public popModal = () => {
-		if (Modal.mountedCount !== this.ownIndex) {
+		if (BaseModal.mountedCount !== this.ownIndex) {
 			return;
 		}
 
@@ -176,7 +176,7 @@ class Modal extends React.Component<ThemedModalProps, any> {
 	}
 }
 
-export interface ModalProps extends DefaultProps {
+export interface ModalProps extends React.HTMLAttributes<HTMLElement> {
 	title?: string;
 	width?: ResponsiveStyle;
 	position?: 'center' | 'top';
@@ -194,4 +194,4 @@ export interface ThemedModalProps extends ModalProps {
 	theme: Theme;
 }
 
-export default withTheme(Modal);
+export const Modal = withTheme(BaseModal);

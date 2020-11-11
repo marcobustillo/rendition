@@ -26,8 +26,7 @@
     "start": "start-storybook -p 6006",
     "build:cjs": "rimraf dist && tsc",
     "build:esm5": "rimraf dist_esm5 && tsc -p ./tsconfig.esm5.json",
-    "build:docs": "node ./scripts/generateDocs.js",
-    "build": "npm run tsify-css && npm run build:cjs && npm run build:esm5 && npm run build:docs",
+    "build": "npm run tsify-css && npm run build:cjs && npm run build:esm5",
     "generate-snapshots": "npm run build && npm run jest -- -u",
     "build:storybook": "build-storybook -o .out",
     "catch-uncommitted": "catch-uncommitted --catch-no-git --skip-node-versionbot-changes",
@@ -36,77 +35,56 @@
     "test": "npm run build && npm run test:fast && npm run catch-uncommitted",
     "jest": "jest --maxWorkers=4",
     "jest:watch": "jest --maxWorkers=4 --watch",
-    "eslint": "eslint src .storybook",
-    "eslint-fix": "eslint src .storybook --fix",
-    "tslint": "balena-lint --typescript src",
-    "tslint-fix": "balena-lint --typescript --fix src",
-    "lint": "npm run eslint && npm run tslint",
+    "lint-fix": "balena-lint --typescript --fix src",
+    "lint": "balena-lint --typescript src",
     "precommit": "lint-staged",
     "prepack": "npm run build",
-    "prettify-js": "prettier --config .prettierrc-js --write \"src/**/*.js\"",
-    "prettify": "npm run prettify-js && npm run eslint-fix && npm run tslint-fix",
-    "deploy": "npm run build:storybook && gh-pages -d .out"
+    "prettify": "npm run lint-fix",
+    "deploy": "npm run build:storybook && gh-pages -d .out",
+    "storybook": "start-storybook -p 6006 --no-dll",
+    "build-storybook": "build-storybook --no-dll"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.2",
-    "@babel/plugin-proposal-class-properties": "^7.0.0",
-    "@babel/plugin-proposal-json-strings": "^7.0.0",
-    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
-    "@babel/plugin-syntax-import-meta": "^7.0.0",
-    "@babel/plugin-transform-react-jsx": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "@babel/preset-typescript": "^7.12.1",
     "@balena/lint": "^5.0.4",
-    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/addon-actions": "^6.0.28",
+    "@storybook/addon-essentials": "^6.0.28",
+    "@storybook/addon-links": "^6.0.28",
     "@storybook/addon-storyshots": "^6.0.28",
-    "@storybook/react": "^5.3.3",
+    "@storybook/react": "^6.0.28",
     "@types/googlemaps": "^3.39.7",
     "@types/highlightjs": "^9.12.0",
-    "@types/jest": "^24.0.25",
+    "@types/jest": "^26.0.15",
     "@types/react": "^16.8.8",
     "@types/react-dom": "^16.8.3",
     "@types/react-google-recaptcha": "^1.1.0",
     "@types/unist": "^2.0.3",
-    "babel-eslint": "^10.0.1",
-    "babel-loader": "^8.0.0-beta.6",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.1",
     "catch-uncommitted": "^1.4.0",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.11.2",
-    "eslint": "^4.13.1",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-config-standard-react": "^5.0.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.2.0",
-    "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-react": "^7.4.0",
-    "eslint-plugin-standard": "^3.0.1",
     "gh-pages": "2.0.0",
     "git-url-parse": "^7.0.0",
     "husky": "^0.14.3",
-    "identity-obj-proxy": "^3.0.0",
-    "jest": "^26.4.3",
-    "jest-canvas-mock": "^1.1.0",
-    "jest-styled-components": "^7.0.0",
-    "jest-svg-transformer": "^1.0.0",
-    "jest-transform-stub": "^2.0.0",
+    "jest": "^26.6.3",
+    "jest-styled-components": "^7.0.3",
     "jsdom": "^11.6.2",
     "lint-staged": "^4.1.1",
-    "markdown-loader-jest": "^0.1.1",
     "match-media-mock": "^0.1.1",
     "monaco-editor-webpack-plugin": "^2.0.0",
     "prettier": "^2.0.5",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
-    "react-test-renderer": "^16.8.5",
+    "react-test-renderer": "^16.14.0",
     "rimraf": "^2.6.2",
     "sinon": "^4.5.0",
-    "storybook-dark-mode": "^1.0.3",
-    "storybook-readme": "5.0.3",
     "strip-css-comments": "^3.0.0",
-    "ts-jest": "^26.4.3",
-    "ts-loader": "^5.3.0",
     "ts-node": "^8.0.2",
     "typescript": "^3.9.6",
-    "webpack": "^4.41.5",
     "zxcvbn": "^4.4.2"
   },
   "dependencies": {
@@ -169,50 +147,18 @@
       "npm run tsify-css",
       "git add ./src/components/Terminal/XTermDefaultStyle.ts"
     ],
-    "{src, test}/**/*.js": [
-      "prettier --config .prettierrc-js --write",
-      "eslint --fix",
-      "git add"
-    ],
     "*.{ts,tsx}": [
       "balena-lint --typescript --fix",
       "git add"
     ]
   },
   "jest": {
-    "preset": "ts-jest/presets/js-with-babel",
     "collectCoverage": true,
-    "verbose": true,
     "setupFiles": [
-      "jest-canvas-mock",
       "<rootDir>scripts/setupTests.js"
     ],
     "setupFilesAfterEnv": [
       "<rootDir>scripts/setupTestsAfterEnv.js"
-    ],
-    "snapshotResolver": "<rootDir>scripts/setupSnapshotsPath.js",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
-    ],
-    "moduleNameMapper": {
-      "\\.(css)$": "identity-obj-proxy"
-    },
-    "moduleDirectories": [
-      "node_modules",
-      "src"
-    ],
-    "transform": {
-      "^.+\\.md?$": "markdown-loader-jest",
-      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
-      "^.+\\.svg$": "jest-svg-transformer"
-    },
-    "transformIgnorePatterns": [
-      "node_modules/(?!(entity-decode|mermaid|monaco-editor|react-monaco-editor)/)"
     ]
   }
 }

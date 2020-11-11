@@ -5,7 +5,6 @@ import styled from 'styled-components';
 import asRendition from '../../asRendition';
 import {
 	Coloring,
-	DefaultProps,
 	RenditionSystemProps,
 	Sizing,
 	Theme,
@@ -94,7 +93,7 @@ const Base = ({
 };
 
 export interface InternalProgressBarProps
-	extends DefaultProps,
+	extends React.HTMLAttributes<HTMLElement>,
 		Coloring,
 		Sizing {
 	value: number;
@@ -108,8 +107,6 @@ export interface ThemedProgressBarProps extends InternalProgressBarProps {
 
 export type ProgressBarProps = InternalProgressBarProps & RenditionSystemProps;
 
-export default asRendition<React.FunctionComponent<ProgressBarProps>>(
-	Base,
-	[getType, setTypeProps],
-	['color'],
-);
+export const ProgressBar = asRendition<
+	React.FunctionComponent<ProgressBarProps>
+>(Base, [getType, setTypeProps], ['color']);

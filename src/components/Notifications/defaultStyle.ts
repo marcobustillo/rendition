@@ -7,7 +7,6 @@ export default css`
 	.notification-container-bottom-center,
 	.notification-container-bottom-left,
 	.notification-container-bottom-right,
-	.notification-container-center,
 	.notification-container-top-center,
 	.notification-container-top-left,
 	.notification-container-top-right {
@@ -15,33 +14,15 @@ export default css`
 		position: absolute;
 		pointer-events: all;
 	}
-	.notification-container-bottom-center,
-	.notification-container-center,
 	.notification-container-top-center {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-		left: calc(50% - 162.5px);
-	}
-	.notification-container-center {
+		transform: translateX(-50%);
 		top: 20px;
-		height: 100%;
-		pointer-events: none;
-	}
-	.notification-container-center .center-inner {
-		width: 325px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-		pointer-events: all;
-	}
-	.notification-container-top-center {
-		top: 20px;
+		left: 50%;
 	}
 	.notification-container-bottom-center {
+		transform: translateX(-50%);
 		bottom: 20px;
+		left: 50%;
 	}
 	.notification-container-top-left {
 		left: 20px;
@@ -224,23 +205,26 @@ export default css`
 		left: 50%;
 		top: 50%;
 	}
+	.n-parent {
+		width: 275px;
+	}
+	.notification-container-mobile-bottom .n-parent,
 	.notification-container-mobile-bottom .notification-item,
-	.notification-container-mobile-bottom .notification-parent,
-	.notification-container-mobile-top .notification-item,
-	.notification-container-mobile-top .notification-parent {
+	.notification-container-mobile-top .n-parent,
+	.notification-container-mobile-top .notification-item {
 		max-width: 100%;
 		width: 100%;
 	}
-	.notification-container-bottom-right .notification-parent,
-	.notification-container-top-right .notification-parent {
+	.notification-container-bottom-right .n-parent,
+	.notification-container-top-right .n-parent {
 		margin-left: auto;
 	}
-	.notification-container-bottom-left .notification-parent,
-	.notification-container-top-left .notification-parent {
+	.notification-container-bottom-left .n-parent,
+	.notification-container-top-left .n-parent {
 		margin-right: auto;
 	}
-	.notification-container-mobile-bottom .notification-parent,
-	.notification-container-mobile-top .notification-parent {
+	.notification-container-mobile-bottom .n-parent,
+	.notification-container-mobile-top .n-parent {
 		margin-left: auto;
 		margin-right: auto;
 	}

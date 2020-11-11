@@ -3,20 +3,9 @@ import { mount } from 'enzyme'
 import noop from 'lodash/noop'
 import sinon from 'sinon'
 import React from 'react'
-import renderer from 'react-test-renderer'
 import { Provider, Select } from '../../../dist'
 
 describe('Select component', () => {
-  it('should match the stored snapshot', () => {
-    const component = renderer.create(
-      <Provider>
-        <Select options={['Option 1', 'Option 2', 'Option 3']} />
-      </Provider>
-    )
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
-  })
-
   describe('value property', () => {
     it('should set the value of the select element', () => {
       const component = mount(

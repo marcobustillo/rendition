@@ -2,27 +2,10 @@
 import { mount } from 'enzyme'
 import noop from 'lodash/noop'
 import React from 'react'
-import renderer from 'react-test-renderer'
 import sinon from 'sinon'
 import { Pager, Provider } from '../../../dist'
 
 describe('Pager component', () => {
-  it('should match the stored snapshot', () => {
-    const component = renderer.create(
-      <Provider>
-        <Pager
-          totalItems={436}
-          itemsPerPage={50}
-          page={0}
-          nextPage={noop}
-          prevPage={noop}
-        />
-      </Provider>
-    )
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
-  })
-
   it('should disable the "prev" button on page 0', () => {
     const callback = sinon.spy()
     const component = mount(

@@ -2,12 +2,12 @@ import { faChevronLeft } from '@fortawesome/free-solid-svg-icons/faChevronLeft';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons/faChevronRight';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as React from 'react';
-import Button from '../Button';
-import ButtonGroup from '../ButtonGroup';
+import { Button } from '../Button';
+import { ButtonGroup } from '../ButtonGroup';
 import { Flex, FlexProps } from '../Flex';
-import Txt from '../Txt';
+import { Txt } from '../Txt';
 
-const Pager = ({
+const BasePager = ({
 	totalItems,
 	itemsPerPage,
 	page,
@@ -62,4 +62,4 @@ export interface PagerProps extends FlexProps {
 	prevPage: () => void;
 }
 
-export default Pager;
+export const Pager = BasePager;

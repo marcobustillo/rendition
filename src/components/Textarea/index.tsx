@@ -5,7 +5,7 @@ import {
 import * as React from 'react';
 import styled from 'styled-components';
 import asRendition from '../../asRendition';
-import { DefaultProps, RenditionSystemProps } from '../../common-types';
+import { RenditionSystemProps } from '../../common-types';
 import { monospace } from '../../utils';
 
 const getBorderColor = (props: InternalTextareaProps & { theme: any }) => {
@@ -34,7 +34,7 @@ const StyledGrommetTextArea = styled(GrommetTextArea)`
 	}
 `;
 
-const Component = ({
+const BaseTextearea = ({
 	autoRows,
 	maxRows,
 	minRows,
@@ -59,7 +59,7 @@ const Component = ({
 };
 
 export interface InternalTextareaProps
-	extends DefaultProps,
+	extends React.HTMLAttributes<HTMLElement>,
 		GrommetTextAreaProps {
 	monospace?: boolean;
 	autoComplete?: string;
@@ -88,4 +88,6 @@ export interface InternalTextareaProps
 
 export type TextareaProps = InternalTextareaProps & RenditionSystemProps;
 
-export default asRendition<React.FunctionComponent<TextareaProps>>(Component);
+export const Textarea = asRendition<React.FunctionComponent<TextareaProps>>(
+	BaseTextearea,
+);

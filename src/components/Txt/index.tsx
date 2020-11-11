@@ -2,7 +2,7 @@ import * as React from 'react';
 import styled, { css } from 'styled-components';
 import { style } from 'styled-system';
 import asRendition from '../../asRendition';
-import { DefaultProps, RenditionSystemProps, Theme } from '../../common-types';
+import { RenditionSystemProps, Theme } from '../../common-types';
 import { monospace } from '../../utils';
 
 export const whitespace = (props: ThemedTxtProps) =>
@@ -40,7 +40,7 @@ export const align = style({
 	cssProperty: 'text-align',
 });
 
-const Txt = styled.div<TxtProps>`
+const BaseTxt = styled.div<TxtProps>`
 	${align}
 	${monospace}
 	${whitespace}
@@ -52,7 +52,7 @@ const Txt = styled.div<TxtProps>`
 
 const Factory = (tag?: string) => {
 	return asRendition<React.FunctionComponent<TxtProps>>((props: any) => {
-		return <Txt as={tag} {...props} />;
+		return <BaseTxt as={tag} {...props} />;
 	});
 };
 
@@ -82,7 +82,7 @@ export type Align =
 	| 'initial'
 	| 'unset';
 
-export interface InternalTxtProps extends DefaultProps {
+export interface InternalTxtProps extends React.HTMLAttributes<HTMLElement> {
 	monospace?: boolean;
 	bold?: boolean;
 	italic?: boolean;
@@ -101,4 +101,4 @@ Base.displayName = 'Txt';
 Base.span = Factory('span');
 Base.p = Factory('p');
 
-export default Base;
+export const Txt = Base;

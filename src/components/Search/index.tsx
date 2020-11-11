@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as React from 'react';
 import styled from 'styled-components';
 import asRendition from '../../asRendition';
-import { DefaultProps, RenditionSystemProps } from '../../common-types';
+import { RenditionSystemProps } from '../../common-types';
 import { px } from '../../utils';
 
 const Wrapper = styled.div`
@@ -41,7 +41,7 @@ const Wrapper = styled.div`
 	}
 `;
 
-const Search = ({
+const BaseSearch = ({
 	className,
 	dark,
 	disabled,
@@ -63,7 +63,7 @@ const Search = ({
 	);
 };
 
-export interface InternalSearchProps extends DefaultProps {
+export interface InternalSearchProps extends React.HTMLAttributes<HTMLElement> {
 	dark?: boolean;
 	disabled?: boolean;
 	placeholder?: string;
@@ -73,4 +73,6 @@ export interface InternalSearchProps extends DefaultProps {
 
 export type SearchProps = InternalSearchProps & RenditionSystemProps;
 
-export default asRendition<React.FunctionComponent<SearchProps>>(Search);
+export const Search = asRendition<React.FunctionComponent<SearchProps>>(
+	BaseSearch,
+);

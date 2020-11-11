@@ -2,7 +2,6 @@
 import Promise from 'bluebird'
 import { mount } from 'enzyme'
 import React from 'react'
-import renderer from 'react-test-renderer'
 import sinon from 'sinon'
 
 import { Alert, Form, Provider } from '../../../dist'
@@ -19,21 +18,6 @@ const schema = {
 }
 
 describe('Form component', () => {
-  it('should match the stored snapshot', () => {
-    const value = {
-      Name: 'Bulbasaur',
-      foo: 'bar'
-    }
-
-    const component = renderer.create(
-      <Provider>
-        <Form schema={schema} value={value} />
-      </Provider>
-    )
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
-  })
-
   it('should still render if an unknown format is used', () => {
     const uuidSchema = {
       type: 'object',

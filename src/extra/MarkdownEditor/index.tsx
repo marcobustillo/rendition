@@ -16,13 +16,12 @@ const StyledEditor = styled(SimpleMDE)`
 	}
 `;
 
-export const MarkdownEditor = ({
-	value,
-	onChange,
-}: {
+export interface MarkdownEditorProps {
 	value: string;
 	onChange: (text: string) => void;
-}) => {
+}
+
+export const MarkdownEditor = ({ value, onChange }: MarkdownEditorProps) => {
 	return (
 		<StyledEditor
 			value={value}

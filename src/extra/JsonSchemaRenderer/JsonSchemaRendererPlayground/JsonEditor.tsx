@@ -10,7 +10,7 @@ import { faExclamationCircle } from '@fortawesome/free-solid-svg-icons/faExclama
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons/faCheckCircle';
 import { Flex } from '../../../components/Flex';
 import { Box } from '../../../components/Box';
-import Heading from '../../../components/Heading';
+import { Heading } from '../../../components/Heading';
 
 const EditorWrapper = styled(Flex)<{ isValid: boolean }>`
 	border: 1px solid

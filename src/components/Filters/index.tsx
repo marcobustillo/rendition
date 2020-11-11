@@ -9,13 +9,12 @@ import isEqual from 'lodash/isEqual';
 import reject from 'lodash/reject';
 import * as React from 'react';
 import styled from 'styled-components';
-import Button, { ButtonProps } from '../Button';
-import { DefaultProps } from '../../common-types';
+import { Button, ButtonProps } from '../Button';
 import { randomString } from '../../utils';
 import { Box } from '../Box';
 import { DropDownButtonProps } from '../DropDownButton';
 import { Flex } from '../Flex';
-import Search from '../Search';
+import { Search } from '../Search';
 import { FilterModal } from './FilterModal';
 import * as SchemaSieve from './SchemaSieve';
 import Summary from './Summary';
@@ -29,7 +28,7 @@ const FilterWrapper = styled(Box)`
 	position: relative;
 `;
 
-class Filters extends React.Component<FiltersProps, FiltersState> {
+class BaseFilters extends React.Component<FiltersProps, FiltersState> {
 	constructor(props: FiltersProps) {
 		super(props);
 		const { filters = [], schema, views = [] } = this.props;
@@ -422,7 +421,7 @@ export interface FiltersState {
 	schema: JSONSchema;
 }
 
-export interface FiltersProps extends DefaultProps {
+export interface FiltersProps extends React.HTMLAttributes<HTMLElement> {
 	disabled?: boolean;
 	filters?: JSONSchema[];
 	views?: FiltersView[];
@@ -437,4 +436,4 @@ export interface FiltersProps extends DefaultProps {
 	compact?: boolean[];
 }
 
-export default Filters;
+export const Filters = BaseFilters;

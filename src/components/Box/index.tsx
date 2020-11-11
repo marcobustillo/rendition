@@ -8,10 +8,10 @@ import {
 	OrderProps,
 } from 'styled-system';
 import asRendition from '../../asRendition';
-import { DefaultProps, RenditionSystemProps } from '../../common-types';
+import { RenditionSystemProps } from '../../common-types';
 
 export interface BoxProps
-	extends DefaultProps,
+	extends Omit<React.HTMLAttributes<HTMLDivElement>, 'color'>,
 		StyledFlexProps,
 		OrderProps,
 		AlignSelfProps,

@@ -37,6 +37,9 @@
   },
   "exclude": [
     "dist",
-    "dist_esm5"
+    "dist_esm5",
+    "scripts",
+    "coverage",
+    "babel.config.js"
   ]
 }

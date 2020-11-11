@@ -1,7 +1,9 @@
 import styled from 'styled-components';
-import { Flex } from '../Flex';
+import { Flex, FlexProps } from '../Flex';
 
-export default styled(Flex)`
+export type ButtonGroupProps = FlexProps;
+
+export const ButtonGroup = styled(Flex)`
 	> * {
 		&:first-child {
 			border-top-right-radius: 0;

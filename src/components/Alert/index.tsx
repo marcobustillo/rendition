@@ -7,16 +7,18 @@ import * as React from 'react';
 import asRendition from '../../asRendition';
 import {
 	Coloring,
-	DefaultProps,
 	RenditionSystemProps,
 	Sizing,
 	Theme,
 } from '../../common-types';
-import { DismissableContainer } from '../../internal/DismissableContainer';
+import {
+	DismissableContainer,
+	DismissableContainerProps,
+} from '../../internal/DismissableContainer';
 import { getColor } from '../../utils';
 import { Box } from '../Box';
 import { Flex } from '../Flex';
-import Txt from '../Txt';
+import { Txt } from '../Txt';
 
 const getTitle = (props: AlertProps) => {
 	if (props.prefix === false) {
@@ -54,7 +56,7 @@ const getIcon = (props: InternalAlertProps) => {
 		: '';
 };
 
-const Alert = (props: ThemedAlertProps) => {
+const BaseAlert = (props: ThemedAlertProps) => {
 	const { emphasized, plaintext, prefix, onDismiss, ...restProps } = props;
 	const icon = getIcon(props);
 	const title = plaintext ? null : getTitle(props);
@@ -107,7 +109,10 @@ interface ThemedAlertProps extends InternalAlertProps {
 	theme: Theme;
 }
 
-interface InternalAlertProps extends DefaultProps, Coloring, Sizing {
+interface InternalAlertProps
+	extends Omit<DismissableContainerProps, 'prefix'>,
+		Coloring,
+		Sizing {
 	plaintext?: boolean;
 	bg?: string;
 	prefix?: JSX.Element | string | false;
@@ -115,8 +120,8 @@ interface InternalAlertProps extends DefaultProps, Coloring, Sizing {
 }
 
 export type AlertProps = InternalAlertProps & RenditionSystemProps;
-export default asRendition<React.FunctionComponent<AlertProps>>(
-	Alert,
+export const Alert = asRendition<React.FunctionComponent<AlertProps>>(
+	BaseAlert,
 	[],
 	['bg'],
 );

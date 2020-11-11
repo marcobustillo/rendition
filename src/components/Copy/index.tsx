@@ -30,7 +30,7 @@ const CopyContainer = styled(Flex)<{
 	}
 `;
 
-export default ({
+const BaseCopy = ({
 	content,
 	show,
 	children,
@@ -65,7 +65,7 @@ export default ({
 	);
 };
 
-export interface InternalCopyProps extends Omit<FlexProps, 'onClick'> {
+interface InternalCopyProps extends Omit<FlexProps, 'onClick'> {
 	content: string;
 	show?: 'hover' | 'always';
 	onClick?: (content: string) => void;
@@ -73,3 +73,5 @@ export interface InternalCopyProps extends Omit<FlexProps, 'onClick'> {
 }
 
 export type CopyProps = InternalCopyProps & RenditionSystemProps;
+
+export const Copy = BaseCopy;

@@ -5,17 +5,17 @@ import findIndex from 'lodash/findIndex';
 import * as React from 'react';
 import styled from 'styled-components';
 import asRendition from '../../asRendition';
-import { DefaultProps, RenditionSystemProps, Theme } from '../../common-types';
+import { RenditionSystemProps, Theme } from '../../common-types';
 import Arrow from '../../internal/Arrow';
 import { DismissableContainer } from '../../internal/DismissableContainer';
 import { Flex } from '../Flex';
-import Heading from '../Heading';
-import Link from '../Link';
-import Txt from '../Txt';
+import { Heading } from '../Heading';
+import { Link } from '../Link';
+import { Txt } from '../Txt';
 import { Box } from '../Box';
 import { px } from '../../utils';
 
-export interface InternalStepsProps extends DefaultProps {
+export interface InternalStepsProps extends React.HTMLAttributes<HTMLElement> {
 	bordered?: boolean;
 	ordered?: boolean;
 	activeStepIndex?: number;
@@ -117,7 +117,7 @@ const StepIcon = ({ ordered, status, active, index }: StepIconProps) => {
 	);
 };
 
-const StepBase = ({
+const BaseStep = ({
 	ordered,
 	active,
 	index,
@@ -153,7 +153,7 @@ const StepBase = ({
 	);
 };
 
-export const Step = StepBase as React.FunctionComponent<StepProps>;
+export const Step = BaseStep as React.FunctionComponent<StepProps>;
 
 const FramelessSteps = ({
 	ordered,
@@ -217,7 +217,7 @@ const FramelessSteps = ({
 	);
 };
 
-const Steps = React.forwardRef(
+const BaseSteps = React.forwardRef(
 	(
 		{
 			theme,
@@ -285,15 +285,15 @@ const Steps = React.forwardRef(
 	},
 );
 
-Steps.defaultProps = {
+BaseSteps.defaultProps = {
 	bordered: true,
 	ordered: false,
 };
 
 export type StepsProps = InternalStepsProps & RenditionSystemProps;
 
-export default asRendition<
+export const Steps = asRendition<
 	React.ForwardRefExoticComponent<
 		StepsProps & React.RefAttributes<HTMLDivElement>
 	>
->(Steps);
+>(BaseSteps);

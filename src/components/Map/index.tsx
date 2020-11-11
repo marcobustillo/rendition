@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
-import { DefaultProps } from '../../common-types';
 import { Box } from '../Box';
 
 export interface UIMarker {
@@ -110,7 +109,7 @@ const getFieldFromMap = <T extends any>(
 	}
 };
 
-const Map = <T extends any>({
+const BaseMap = <T extends any>({
 	className,
 	data = [],
 	dataMap,
@@ -182,7 +181,7 @@ const Map = <T extends any>({
 };
 
 // Make name optional, and override onChange to not be of `any` type.
-export interface MapProps<T> extends DefaultProps {
+export interface MapProps<T> extends React.HTMLAttributes<HTMLElement> {
 	apiKey: string;
 	data: T[];
 	dataMap: {
@@ -196,4 +195,4 @@ export interface MapProps<T> extends DefaultProps {
 	mapClick?: (e: google.maps.MouseEvent) => void;
 }
 
-export default Map;
+export const Map = BaseMap;

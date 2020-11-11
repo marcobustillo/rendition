@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import styled, { withTheme } from 'styled-components';
 import { Theme } from '../../common-types';
-import Button from '../../components/Button';
+import { Button } from '../../components/Button';
 import { Flex, FlexProps } from '../../components/Flex';
 import { getColor, opaque, px } from '../../utils';
 

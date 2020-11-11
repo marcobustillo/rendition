@@ -1,7 +1,6 @@
 /* globals expect, describe, it */
 import { mount } from 'enzyme'
 import React from 'react'
-import renderer from 'react-test-renderer'
 
 import {
   Filters,
@@ -90,17 +89,6 @@ const viewScopes = [
 ]
 
 describe('Filters component', () => {
-  it('should match the stored snapshot', () => {
-    const tree = renderer
-      .create(
-        <Provider>
-          <Filters schema={schema} />
-        </Provider>
-      )
-      .toJSON()
-    expect(tree).toMatchSnapshot()
-  })
-
   describe('filters property', () => {
     it('should not render a summary if there are no filters', () => {
       const component = mount(

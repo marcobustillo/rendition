@@ -8,9 +8,9 @@ import { RenditionSystemProps } from '../../common-types';
 import { useBreakpoint } from '../../hooks/useBreakpoint';
 import { px } from '../../utils';
 import { Box } from '../Box';
-import Button, { ButtonProps } from '../Button';
-import Divider from '../Divider';
-import Fixed from '../Fixed';
+import { Button, ButtonProps } from '../Button';
+import { Divider } from '../Divider';
+import { Fixed } from '../Fixed';
 import { Flex } from '../Flex';
 
 const TOGGLE_BUTTON_X_PADDING = 16;
@@ -141,7 +141,7 @@ interface DropDownButtonState {
 	minWidth: number;
 }
 
-class DropDownButton extends React.Component<
+class BaseDropDownButton extends React.Component<
 	InternalDropDownButtonProps,
 	DropDownButtonState
 > {
@@ -277,8 +277,8 @@ export interface InternalDropDownButtonProps extends ButtonProps {
 export type DropDownButtonProps = InternalDropDownButtonProps &
 	RenditionSystemProps;
 
-export default asRendition<
+export const DropDownButton = asRendition<
 	React.ForwardRefExoticComponent<
-		DropDownButtonProps & React.RefAttributes<DropDownButton>
+		DropDownButtonProps & React.RefAttributes<BaseDropDownButton>
 	>
->(DropDownButton, [], ['color', 'bg', 'backgroundColor']);
+>(BaseDropDownButton, [], ['color', 'bg', 'backgroundColor']);

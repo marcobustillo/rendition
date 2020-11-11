@@ -1,10 +1,10 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import asRendition from '../../asRendition';
-import { DefaultProps, RenditionSystemProps } from '../../common-types';
+import { RenditionSystemProps } from '../../common-types';
 import { px } from '../../utils';
 import { Flex } from '../Flex';
-import Txt from '../Txt';
+import { Txt } from '../Txt';
 
 const Base = styled.hr<InternalDividerProps>`
 	border: 0 none;
@@ -26,14 +26,15 @@ const FlexBase = styled(Base)`
 	margin: auto;
 `;
 
-export interface InternalDividerProps extends DefaultProps {
+export interface InternalDividerProps
+	extends React.HTMLAttributes<HTMLElement> {
 	height?: number;
 	color?: string;
 	children?: string;
 	type?: 'solid' | 'dashed';
 }
 
-const Divider = React.forwardRef(
+const BaseDivider = React.forwardRef(
 	({ children, className, ...otherProps }: InternalDividerProps, ref) => {
 		if (!children) {
 			return <Base className={className} {...otherProps} ref={ref as any} />;
@@ -65,8 +66,8 @@ const Divider = React.forwardRef(
 
 export type DividerProps = InternalDividerProps & RenditionSystemProps;
 
-export default asRendition<
+export const Divider = asRendition<
 	React.ForwardRefExoticComponent<
 		DividerProps & React.RefAttributes<HTMLHRElement>
 	>
->(Divider, [], ['color', 'height']);
+>(BaseDivider, [], ['color', 'height']);

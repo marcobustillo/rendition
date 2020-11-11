@@ -2,11 +2,7 @@ import defaultTo from 'lodash/defaultTo';
 import { withProps } from 'recompose';
 import styled from 'styled-components';
 import asRendition from '../../asRendition';
-import {
-	DefaultProps,
-	RenditionSystemProps,
-	ResponsiveStyle,
-} from '../../common-types';
+import { RenditionSystemProps, ResponsiveStyle } from '../../common-types';
 
 const Base = styled.div<FixedBaseProps>`
 	position: fixed;
@@ -27,7 +23,7 @@ const dimensions = withProps((props: FixedProps) => {
 	};
 });
 
-interface FixedBaseProps extends DefaultProps {
+interface FixedBaseProps extends React.HTMLAttributes<HTMLElement> {
 	top?: ResponsiveStyle;
 	right?: ResponsiveStyle;
 	bottom?: ResponsiveStyle;
@@ -36,7 +32,7 @@ interface FixedBaseProps extends DefaultProps {
 	bg?: string;
 }
 
-export interface InternalFixedProps extends DefaultProps {
+export interface InternalFixedProps extends React.HTMLAttributes<HTMLElement> {
 	top?: boolean | ResponsiveStyle;
 	right?: boolean | ResponsiveStyle;
 	bottom?: boolean | ResponsiveStyle;
@@ -47,7 +43,7 @@ export interface InternalFixedProps extends DefaultProps {
 
 export type FixedProps = InternalFixedProps & RenditionSystemProps;
 
-export default asRendition<
+export const Fixed = asRendition<
 	React.ForwardRefExoticComponent<
 		FixedProps & React.RefAttributes<HTMLDivElement>
 	>

@@ -81,7 +81,7 @@ interface ArcSliderState {
 	innerValue: number;
 }
 
-class ArcSlider extends React.Component<ArcSliderProps, ArcSliderState> {
+class BaseArcSlider extends React.Component<ArcSliderProps, ArcSliderState> {
 	private $slider: SVGSVGElement | null = null;
 
 	constructor(props: any) {
@@ -265,4 +265,4 @@ export interface ArcSliderProps extends BoxProps {
 	background?: string;
 }
 
-export default ArcSlider;
+export const ArcSlider = BaseArcSlider;

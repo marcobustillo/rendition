@@ -27,10 +27,8 @@ test('useTheme should return correct theme object', () => {
 })
 
 const resizeWindow = (width = 600) => {
-  const event = document.createEvent('Event')
-  event.initEvent('resize', true, true)
-  window.innerWidth = width
-  window.dispatchEvent(event)
+  global.window.innerWidth = width
+  global.window.dispatchEvent(new Event('resize'))
 }
 
 const HookContainer = ({ children, values }) => children(useBreakpoint(values))

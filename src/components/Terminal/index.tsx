@@ -40,7 +40,7 @@ const TtyInner = styled(Flex)`
 	bottom: 0;
 `;
 
-class Terminal extends React.Component<ThemedTerminalProps, {}> {
+class BaseTerminal extends React.Component<ThemedTerminalProps, {}> {
 	public readonly tty: Xterm & { fitAddon: FitAddon };
 	// Used as the element to mount XTERM into
 	private mountElement: HTMLDivElement | null;
@@ -168,4 +168,4 @@ interface ThemedTerminalProps extends TerminalProps {
 	theme?: ThemeType;
 }
 
-export default Terminal;
+export const Terminal = BaseTerminal;

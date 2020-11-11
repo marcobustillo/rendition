@@ -1,10 +1,12 @@
-import { Button, ButtonProps as GrommetButtonProps } from 'grommet';
+import {
+	Button as GrommetButton,
+	ButtonProps as GrommetButtonProps,
+} from 'grommet';
 import * as React from 'react';
 import styled, { css } from 'styled-components';
 import asRendition from '../../asRendition';
 import {
 	Coloring,
-	DefaultProps,
 	RenditionSystemProps,
 	ResponsiveStyle,
 	Sizing,
@@ -46,7 +48,7 @@ const getHoverEffectOverride = (
 the rendition styles override the Grommet global ones.
 https://www.styled-components.com/docs/advanced#issues-with-specificity
 */
-const ButtonBase = styled(Button)`
+const ButtonBase = styled(GrommetButton)`
 	& {
 		font-weight: ${(props) => props.theme.button.font.weight};
 		font-size: ${(props) => props.theme.button.font.size};
@@ -211,7 +213,7 @@ const getStyledButton = (
 	return ColouredButton;
 };
 
-const Base = React.forwardRef((props: ThemedButtonProps, ref: any) => {
+const BaseButton = React.forwardRef((props: ThemedButtonProps, ref: any) => {
 	const {
 		outline,
 		underline,
@@ -282,7 +284,7 @@ interface ButtonBaseProps extends Coloring, Sizing {
 
 export interface InternalButtonProps
 	extends ButtonBaseProps,
-		Omit<DefaultProps, 'dir'>,
+		Omit<React.HTMLAttributes<HTMLElement>, 'dir' | 'color'>,
 		GrommetButtonProps {
 	type?: 'submit' | 'reset' | 'button';
 	confirmation?: ConfirmOptions | string;
@@ -294,11 +296,11 @@ export interface ThemedButtonProps extends ButtonProps {
 	theme: Theme;
 }
 
-export default withConditional<ButtonProps>(withConfirm, (props) => {
+export const Button = withConditional<ButtonProps>(withConfirm, (props) => {
 	return 'confirmation' in props;
 })(
 	asRendition<ButtonProps>(
-		Base,
+		BaseButton,
 		[],
 		['width', 'color', 'bg'],
 	) as React.ForwardRefExoticComponent<ButtonProps>,

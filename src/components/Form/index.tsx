@@ -2,7 +2,7 @@ import { JSONSchema7 as JSONSchema } from 'json-schema';
 import isEqual from 'lodash/isEqual';
 import omit from 'lodash/omit';
 import * as React from 'react';
-import Form, {
+import RsjfForm, {
 	IChangeEvent,
 	FormProps as JsonSchemaFormProps,
 	UiSchema,
@@ -12,7 +12,7 @@ import Form, {
 } from '@rjsf/core';
 import styled from 'styled-components';
 import { Box, BoxProps } from '../Box';
-import Button, { ButtonProps } from '../Button';
+import { Button, ButtonProps } from '../Button';
 import * as utils from '../../utils';
 import { DescriptionField } from './fields/DescriptionField';
 import ObjectField from './fields/ObjectField';
@@ -137,8 +137,8 @@ export interface FormProps extends BaseFormProps {
 	schema: JSONSchema;
 }
 
-export default class FormHOC extends React.Component<FormProps, FormState> {
-	private formRef = React.createRef<Form<any>>();
+class BaseForm extends React.Component<FormProps, FormState> {
+	private formRef = React.createRef<RsjfForm<any>>();
 
 	public static getDerivedStateFromProps(props: FormProps, state: FormState) {
 		if (!state) {
@@ -203,7 +203,7 @@ export default class FormHOC extends React.Component<FormProps, FormState> {
 
 		return (
 			<FormWrapper {...props}>
-				<Form
+				<RsjfForm
 					ref={this.formRef}
 					disabled={disabled}
 					liveValidate={liveValidate}
@@ -231,8 +231,10 @@ export default class FormHOC extends React.Component<FormProps, FormState> {
 					{!!secondaryButtonProps && (
 						<Button outline secondary ml={3} {...secondaryButtonProps} />
 					)}
-				</Form>
+				</RsjfForm>
 			</FormWrapper>
 		);
 	}
 }
+
+export const Form = BaseForm;

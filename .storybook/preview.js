@@ -1,9 +1,12 @@
 import * as React from 'react'
-import { addDecorator } from '@storybook/react'
-import { useDarkMode } from 'storybook-dark-mode'
+// import { useDarkMode } from 'storybook-dark-mode'
 import { createGlobalStyle } from 'styled-components'
 import theme from '../src/theme'
 import { Provider } from '../src/index'
+
+export const parameters = {
+  actions: { argTypesRegex: '^on[A-Z].*' }
+}
 
 const GlobalStyle = createGlobalStyle([], {
   '*': {
@@ -18,7 +21,8 @@ const GlobalStyle = createGlobalStyle([], {
 })
 
 const ThemeProvider = ({ children }) => {
-  const isDark = useDarkMode()
+  // const isDark = useDarkMode()
+  const isDark = false
 
   return (
     <React.Fragment>
@@ -44,8 +48,10 @@ const ThemeProvider = ({ children }) => {
   )
 }
 
-function withGlobalStyles (storyFn) {
-  return <ThemeProvider>{storyFn()}</ThemeProvider>
-}
-
-addDecorator(withGlobalStyles)
+export const decorators = [
+  (Story) => (
+    <ThemeProvider>
+      <Story />
+    </ThemeProvider>
+  )
+]

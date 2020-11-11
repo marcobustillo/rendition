@@ -6,9 +6,9 @@ import get from 'lodash/get';
 import isArray from 'lodash/isArray';
 import ajv from 'ajv';
 import asRendition from '../../asRendition';
-import { DefaultProps, RenditionSystemProps, Theme } from '../../common-types';
+import { RenditionSystemProps, Theme } from '../../common-types';
 import { Flex } from '../../components/Flex';
-import Alert from '../../components/Alert';
+import { Alert } from '../../components/Alert';
 import ErrorBoundary from '../../internal/ErrorBoundary';
 import widgets, {
 	WidgetWrapperUiOptions,
@@ -193,7 +193,8 @@ interface ThemedJsonSchemaRendererProps
 	theme: Theme;
 }
 
-interface InternalJsonSchemaRendererProps extends DefaultProps {
+interface InternalJsonSchemaRendererProps
+	extends React.HTMLAttributes<HTMLElement> {
 	nested?: boolean;
 	validate?: boolean;
 	valueKey?: string;

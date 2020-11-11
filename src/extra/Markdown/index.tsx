@@ -1,7 +1,7 @@
 import * as React from 'react';
-import Txt, { TxtProps } from '../../components/Txt';
-import Heading from '../../components/Heading';
-import Link from '../../components/Link';
+import { Txt, TxtProps } from '../../components/Txt';
+import { Heading } from '../../components/Heading';
+import { Link } from '../../components/Link';
 import unified from 'unified';
 import remarkParse from 'remark-parse';
 import remarkRehype from 'remark-rehype';
@@ -9,16 +9,18 @@ import rehypeReact from 'rehype-react';
 import sanitize from 'rehype-sanitize';
 import raw from 'rehype-raw';
 import prism from '@mapbox/rehype-prism';
-import Divider from '../../components/Divider';
+import { Divider } from '../../components/Divider';
 import styled, { withTheme } from 'styled-components';
 import gh from 'hast-util-sanitize/lib/github.json';
 import { Theme } from '../../common-types';
-import 'prismjs/themes/prism.css';
+import defaultStyle from './defaultStyle';
 import { darken, lighten } from '../../utils';
 import { Decorator, decoratorPlugin } from './plugins/decorator';
 export { gh as defaultSanitizerOptions };
 
 const MarkdownWrapper = styled(Txt)`
+	${defaultStyle}
+
 	* {
 		box-sizing: border-box;
 	}
@@ -194,7 +196,7 @@ export const getProcessor = (
 	});
 };
 
-type MarkdownProps = TxtProps & {
+export type MarkdownProps = TxtProps & {
 	children: string;
 	componentOverrides?: components;
 	theme: Theme;

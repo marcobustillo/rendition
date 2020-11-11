@@ -64,7 +64,7 @@ const UnorderedList = styled(ListBase)`
 	}
 `;
 
-const List = ({ children, className, ordered }: InternalListProps) => {
+const BaseList = ({ children, className, ordered }: InternalListProps) => {
 	const ListType = ordered ? OrderedList : UnorderedList;
 	return (
 		<ListType className={className}>
@@ -82,4 +82,4 @@ interface InternalListProps {
 }
 
 export type ListProps = InternalListProps & RenditionSystemProps;
-export default asRendition<React.FunctionComponent<ListProps>>(List);
+export const List = asRendition<React.FunctionComponent<ListProps>>(BaseList);

@@ -1,10 +1,9 @@
 import { mermaidAPI } from 'mermaid';
 import * as React from 'react';
 import uuid from 'uuid/v4';
-import { DefaultProps } from '../../common-types';
 import { Box, BoxProps } from '../../components/Box';
 
-interface MermaidProps extends DefaultProps, BoxProps {
+export interface MermaidProps extends BoxProps {
 	value: string;
 }
 

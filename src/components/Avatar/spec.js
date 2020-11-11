@@ -1,21 +1,10 @@
 /* globals expect, describe, it */
 import React from 'react'
-import renderer from 'react-test-renderer'
 import { mount } from 'enzyme'
 import { Avatar, Provider } from '../../../dist'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 describe('Avatar component', () => {
-  it('Avatar renders correctly', () => {
-    const component = renderer.create(
-      <Provider>
-        <Avatar />
-      </Provider>
-    )
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
-  })
-
   describe('firstName and lastName properties', () => {
     it('should render the Avatar with initials if src is not passed', () => {
       const component = mount(

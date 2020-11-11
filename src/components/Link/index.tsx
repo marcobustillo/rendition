@@ -4,7 +4,7 @@ import * as React from 'react';
 import { withProps } from 'recompose';
 import styled from 'styled-components';
 import asRendition from '../../asRendition';
-import { DefaultProps, RenditionSystemProps } from '../../common-types';
+import { RenditionSystemProps } from '../../common-types';
 import { darken, monospace } from '../../utils';
 import { align, bold, caps } from '../Txt';
 
@@ -29,7 +29,7 @@ const Base = styled.a<InternalLinkProps>`
 	}
 `;
 
-const Link = ({ is, blank, children, ...props }: InternalLinkProps) => {
+const BaseLink = ({ is, blank, children, ...props }: InternalLinkProps) => {
 	if (props.disabled) {
 		props = omit(props, 'href');
 	}
@@ -54,7 +54,8 @@ const setDefaultProps = withProps((props: InternalLinkProps) => {
 	);
 });
 
-export interface InternalLinkProps extends DefaultProps {
+export interface InternalLinkProps
+	extends Omit<React.HTMLAttributes<HTMLElement>, 'is'> {
 	blank?: boolean;
 	disabled?: boolean;
 	download?: any;
@@ -71,8 +72,8 @@ export interface InternalLinkProps extends DefaultProps {
 
 export type LinkProps = InternalLinkProps & RenditionSystemProps;
 
-export default asRendition<React.FunctionComponent<LinkProps>>(
-	Link,
+export const Link = asRendition<React.FunctionComponent<LinkProps>>(
+	BaseLink,
 	[setDefaultProps],
 	['color'],
 );
