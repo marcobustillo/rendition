@@ -1,4 +1,35 @@
 - commits:
+    - subject: Remove visual regression tests
+      hash: 4d1175af065ba3f42b3d763dcbb29872a2ed81b4
+      body: |
+        Since jest snapshots now contain CSS we can reliably recreate a visual
+        representation of a component on-demand, making the screenshot testing
+        redundant.
+        We will need to increase the coverage of our snapshot testing to cover
+        the variants in storybook if we are to achieve the same test coverage as
+        the screenshot testing and this will be done in a follow-up commit.
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+    - subject: Migrate to newer system of storybook configuration
+      hash: 82a11189c8ccc84a6ef8f5fb3d5c93ecbacfdcce
+      body: >
+        The newer versions of storybook refactor the way stories and addons are
+
+        loaded. See
+        https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#from-version-52x-to-53x
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+  version: 18.14.0
+  date: 2020-11-12T17:20:39.725Z
+- commits:
     - subject: Updated snapshots
       hash: 3d7af8fdbd6b260f60800afac8e8bd2592a4427b
       body: |
