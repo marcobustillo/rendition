@@ -3,6 +3,7 @@ import { faChevronUp } from '@fortawesome/free-solid-svg-icons/faChevronUp';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as React from 'react';
 import styled from 'styled-components';
+import { window } from 'browser-monads';
 import asRendition from '../../asRendition';
 import { RenditionSystemProps } from '../../common-types';
 import { useBreakpoint } from '../../hooks/useBreakpoint';

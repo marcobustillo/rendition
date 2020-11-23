@@ -2,6 +2,7 @@ import { Layer } from 'grommet';
 import merge from 'lodash/merge';
 import * as React from 'react';
 import styled, { createGlobalStyle, withTheme } from 'styled-components';
+import { window } from 'browser-monads';
 import { DefaultProps, ResponsiveStyle, Theme } from '../../common-types';
 import { px } from '../../utils';
 import { Box } from '../Box';

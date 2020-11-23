@@ -4,6 +4,7 @@ import pick from 'lodash/pick';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import styled from 'styled-components';
+import { window } from 'browser-monads';
 import { TooltipPlacement } from './common-types';
 
 // The distance between the tooltip arrow and the target element

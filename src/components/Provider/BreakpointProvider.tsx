@@ -1,5 +1,6 @@
 import debounce from 'lodash/debounce';
 import * as React from 'react';
+import { window } from 'browser-monads';
 import { BreakpointContext } from '../../contexts/BreakpointContext';
 export interface BreakpointProviderProps {
 	breakpoints: number[];

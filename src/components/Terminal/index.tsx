@@ -3,6 +3,7 @@ import * as React from 'react';
 import styled from 'styled-components';
 import { ITerminalOptions, Terminal as Xterm } from 'xterm';
 import { FitAddon } from 'xterm-addon-fit';
+import { window } from 'browser-monads';
 import { Theme as ThemeType } from '../../common-types';
 // TODO: Remove explicit import and use withTheme. There are some issues with the resulting typings when using withTheme, therefore the current workaround.
 import theme from '../../theme';
